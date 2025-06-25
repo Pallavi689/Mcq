@@ -1,0 +1,3906 @@
+Phase 2 
+Which of the following is a valid jspService() method signature? 
+private void _jspService(HttpServletRequest request, HttpServletResponse response)throws 
+ServletException java.io.IOException 
+public void jspService(HttpServletRequest request, HttpServletResponse response)throws 
+ServletException, java.io.IOException 
+public void jspService(HttpServletRequest request, HttpServletResponse response) throws 
+ServletException 
+public void jspService(HttpServletRequest request, HttpServletResponse response) throws 
+java.io.IOExcервал 
+How can we hook initialization or clean up code in Spring? 
+Using custom init() and destroy() methods 
+Using interfaces InitializingBean and DisposableBean 
+Using <bean> tag 
+It is not possible 
+To initialize the session factory in java hibernate choose the appropriate function  Configuration 
+configuration=new Configuration().configure(). SessionFactory sessionFactory = configuration. 
+___________().  
+buildSessionFactory 
+sessionFactory 
+newSessionFactory 
+createSessionFactory 
+How can you define property placeholders in Spring XML configuration? 
+Using the <context:property-placeholder> tag 
+Using the <context:value> tag 
+Using the <context:property> tag 
+Using the <context:placeholder> tag 
+What does MIME stand for? 
+Multipurpose Internet Mail Extension 
+Multipurpose Internet Media Extension 
+Multipurpose Intranet Media Extension 
+Multipurpose Internet Messaging Extension 
+Please refer below 
+What will be the output of the following code snippet? 
+< page language="java" 
+<html> 
+<head></head> 
+<body> 
+<java.util.Date now-new java.util.Date(); $> 
+<H1><= now.getHours() >:<=now.getMinutes()>:<=now.getSeconds() %></I> 
+</body> 
+</html>> 
+It will display the date as mm:dd:yy 
+It will display the date and time 
+It will display time as hh/mm/ss 
+It will display the current time as hh:mm:ss 
+Which method is required for loading a database driver in JDBC? 
+connectDriver() 
+DriverManager.getConnection() 
+Class.forName() 
+getConnection() 
+What are the modules of the core container? 
+Beans, Core, Context, SpEL 
+Core, Context, ORM, Web 
+Core, Context, Aspects, Test 
+Bean, Core, Context, Test 
+What are the appropriate methods for a Hibernate Session Object? 
+save() 
+load() 
+get() 
+remove() 
+destroy() 
+Please refer below 
+What will be the output for the following code? 
+Testlervlet: 
+ServletContext context getServletContext(); String ne(String)context.getAttribute("company"); 
+context.setAttribute("company", "VisualBase"); System.out.println(n); 
+Web.xml: 
+<context-param> 
+<param-name>company</param-name> 
+<param-value>HaleTech</param-value> 
+</context-param> 
+Tech Hale 
+null 
+Visual Base 
+Runtime Exception 
+Consider the following JSP page source: 
+1) <%@ page import="java.io.*"> 
+2) <html> 
+3) <body> 
+4) <% 
+5) PrintWriter out response.getWriter(); 
+6) out.write("X"); 
+7)%> 
+8) <tout.write("Y");> 
+9) </body> 
+10)</html> 
+Which of the following are true statements about the above code? 
+"X" will be written to the response, followed by "Y" 
+Only "Y" will be written to the response 
+The page has a compilation error because of a directive syntax error 
+In jsp technology it is a bad idea to get hold of the PrintWriter directly from the response 
+The page has a compilation error for other reasons 
+What code is needed to configure foreign key mapping on the database side? 
+private List<Page> pages = new ArrayList<page>() 
+@OrderColumn(name = "pageNumber", insertable=true) 
+@OneToMany(cascade=Cascade Type ALL fetch=FetchType EAGER) 
+@JoinColumn(name= "storyID", updatable=false) 
+David is working on a web application. He wants to have a functionality that will enable him to W 
+session used by the user is from cookie or from URL 
+isRequestedidFromCookie 
+isRequestedSessionIdFromURL 
+isRequestedid FromURL 
+isRequestedSessionIdFromCookie 
+Requested SessionIdIsFromCookie 
+Henry U1001 
+null 
+O Henry 
+NullPointerException 
+Henry null 
+To create a database only if it doesn't exist, which clause is used? 
+IF EXISTS 
+IF NOT EXISTS 
+O CREATE EXISTS 
+EXISTS IF 
+Consider the following JSP code sippet 
+Employeeltaan john (Employeellean)request.getAttribute("john")  
+if (John sall) 
+harry naw EmployeeBean() request.setAttribute("Join, john) 
+Which one of the following is an equivalent action code for the above code? 
+<jsp declareBean id="john" class = "EmployeeBean" scope="request" /> 
+<jsp.createBean id = "john" class = "EmployeeBean" /> 
+<jsp:useBean id="john" class = "EmployeeBean" scope="request" /> 
+<jsp useBean id="john" class = "EmployeeBean" /> 
+Please refer below 
+FoxTravels maintains two classes Driving License and Citizen. They have one to one relationship 
+between them. Assume that these two classes are annotated correctly with Cascade Type ALL and 
+there are no records currently available in the database. 
+What will be the output of the code given below? 
+DrivingLicense dl new Driving License(); dl.setLicenceNumber(101); Calendar issueDate = 
+Calendar.getInstance(); issueDate.set(12, 12, 2005); Calendar expiry Calendar.getInstance(); 
+expiry.set(12, 12, 2025); dl.setLicenceIssued(issueDate); dl.setLicenceExpiry(expiry); 
+dl.setVehicleType("LMV") Citizen citzn = new Citizen(); citzn.setcustId (5001); 
+citzn.setcustName("Ram"); citzn.setDrivingLicense (d1); session.getTransaction().begin(); 
+session.persist (citzn); session.getTransaction().commit(); 
+One record will be inserted in Driving License Table and one record will be inserted in Citizen Table 
+One record will be inserted in Driving License Table but no record will be inserted in Citizen Table 
+No record will be inserted in Driving License Table but one record will be inserted in Citizen Table 
+No record will be inserted in Driving License Table and no record will be inserted in Citizen Table 
+In the case of stored procedures, which statements are true regarding IN parameters? 
+IN Parameter is the default parameter 
+IN Parameter value should be passed to the procedure for processing 
+The same parameter will serve as input and output 
+The IN parameter is a variable whose value will change in the invoked procedure 
+Which clause of the select statement below can be used to sort the records on a specific coLOUMN 
+Sort 
+Group 
+Filter 
+Collate 
+Identify the different values which a scope attribute of a <jsp:useBean>action can set 
+page, request, session and application 
+page and request only 
+page, request, response and application 
+page, response, session and application 
+Identify what are the object states in 4,8,11,154 16. 
+Transient, Persistent, Detached, Persistent, Persistent 
+Transient, Persistent, Persistent, Detached, Persistent 
+Transient, Persistent, Detached, Detached, Detached 
+Transient, Persistent, Detached, Detached, Persistent 
+package com.test.service; 
+public class Mobilservice ( 
+private String mobileName; public chilafervice() {} 
+//getter and sattar methods 
+ApplicationContext ace new ClassPathXmlApplicationContext("configml"); PersonService pl 
+(PersonService) ac.getBean("personService"); Bystem.out.println("I have: 
+"+pl.getMob().getMobileName()); 
+What is the output of the above code after execution? 
+Display mobile name as "null" 
+Display mobile name as "Nokia" 
+Display mobile name as "Samsung" 
+Runtime Exception 
+Please refer below 
+A JSP page called test.jsp is passed with a parameter name in the URL, using 
+http://localhost/test.jsp?naman Johar The code 
+<! String myName=request.getParameter()> < String teat "welcome" myName: > 
+<= testi> 
+What will be the output for the following code? 
+The program prints "Welcome John" 
+The program gives a syntax error because of the statement <%! String 
+myName=request.getParameter();%> 
+The program gives a syntax error because of the statement <% String test= "welcome" + myName; 
+%> 
+The program gives a syntax error because of the statement <%= test%> 
+Which operators test whether a subquery returns any rows? select one corect answer? 
+IN and NOT IN 
+EXISTS and NOT EXISTS 
+PRESENT 
+ABSENT 
+Which method call creates a binary output stream in a servlet? 
+response getOutputStream(). 
+request.getWriter(). 
+request.getOutputStream(); 
+response.getWriter(); 
+Session.geOutputStream(); 
+How will you access a servlet context initialization parameter named "company 
+Sfinit company name) 
+$(init['company-name']) 
+$(initParam['company-name']) 
+$(contextParam company-name) 
+Which method will be used to execute the Stored Procedure? 
+execute() of CallableStatement 
+executeProcedure() of Statement 
+run() of ProcedureCommand 
+execute() of StoredProcedure 
+Please refer below 
+Consider Mobile Service class with two properties mobile Number and model as shown below. 
+package com.test: 
+public class Mobileservice( private long mobileNumber; 
+private String model: 
+//parameterized constructor 
+public MobileService (long mobileNumber, String model) ( this.mobileNumber = mobileNumber; 
+this.model = model: 
+}} 
+config.xml -Configuration file as below: 
+<bean id="mobileService" class="com.test. MobileService"> <constructor-arg value="Nokia"/> 
+<constructor-arg value="1234567892"/> 
+</bean> 
+The main method of the application is shown below: 
+ApplicationContext ac=new ClassPathXmlApplicationContext("config.xml"); MobileService m = 
+(MobileService)ac.getBean ("mobileService"); 
+What is the output of the above code after execution?                    
+Throws Exception as the constructor arguments are not passed in appropriate order in the bean 
+definition 
+mobileService bean of MobileService class type is created with values as "1234567892" for mobile 
+Number and "Nokia" for model 
+mobileService bean of MobileService class type is created with values as "0" for mobile Number and 
+"1234567892" for model 
+OmobileService bean of MobileService class type is created with values as "0" for mobileNumber and 
+"null" for model 
+Which data type is used to store date and time in MySQL? 
+Numeric data type 
+Text data type 
+Temporal data type 
+Char/Varchar 
+Which of the following statements about views is true in MySQL? 
+Some views are updatable, but must satisfy specific conditions on the columns. 
+All views are updatable in MySQL 
+Views are not updatable in MySQL 
+MySQL does not support materialized views, so no insert or updates on views can be performed 
+Please refer below 
+Given the HTML form: 
+1. <html> 
+2. <body> 
+3. <form action="submit.jsp"> 
+4. Name: <input type="text" name="il"><br> 5. Price: <input type="text" name="12"><br> 
+6. <input type="submit"> 
+7. </form 
+8. </body> 
+9. </html> 
+Product Class: 
+package com.example; 
+public class Product { 
+private String name: 
+private double price; public Product() { 
+public String getName() { return name: 
+} 
+public void setName(String name) { 
+} 
+this.name name: 
+public double getPrice() { 
+return price: 
+} 
+public void setPrice (double price) { this.price price: 
+}} 
+Assume the product attribute does NOT yet exist in any scope. 
+Which code snippet, in submit.jsp, instantiates an instance of com.example.Product that contains 
+the results of the form submission? 
+<jsp:useBean id="com.example.Product" /> <jsp:setProperty name="product" property="" /> 
+<jsp:useBean class="product1" id="com.test.Product" /> ${product.name = param.i1} 
+${product.price = param.12) 
+<jsp:useBean id="product" class="com.example.Product"> <jsp:setProperty name="product" 
+property="name" param="11" /> <jsp:setProperty name="product" property="price" param="i2" /> 
+</jsp:useBean> 
+<jsp:useBean id="product" type="com.example.Product"> <jsp:setProperty name="product" 
+property="name" value="<%= request.getParameter("i1") %>" /> <jsp:setProperty name="product" 
+property="price" value="<%= request.getParameter("2") %>" /> 
+Which of these can use the context component-scan XML element for its bean configuration 
+FileSystem.XmlApplicationContext.. 
+AnnotationConfigWebApplicationContext 
+AnnotationConfigApplicationContext 
+ClassPathXmlApplicationContext. 
+Choose the types of advice in spring AOP. 
+Before, After, After-Returning, After-Throwing, Around 
+Where, After-Returning, After-Throwing, Around 
+Then, After, After-Returning, Anier-Throwing. Around 
+When, After, After-Returning, Around 
+Please refer below 
+Consider the following JSP page source 
+1) < page import="java.io.*"> 
+2) <html> 
+3)<body> 
+4) <% 
+5)PrintWriter out =response.getWriter(): 
+6)out.write("X"); 
+7) %> 
+8)<%out.write("Y");%> 
+9) </body> 
+10) </html> 
+Which of the following are true statements about the above code? 
+"X" will be written to the response, followed by "Y" 
+Only "Y" will be written to the response 
+The page has a compilation error because of a directive syntax error 
+In jsp technology it is a bad idea to get hold of the PrintWriter directly from the respon 
+The page has a compilation error for other reasons 
+PHASE 3 
+Which of the following annotation supports auto Scan feature of Spring? 
+Options 
+· @Component//Answer 
+· @Value 
+· @Autowired 
+· @Qualifier 
+What is a self-managed solution that provides source code collaboration for professional teams of 
+any size, across any distance? 
+Options 
+· Bitbucket//Answer 
+· Git 
+· Github 
+· docker hub 
+What is true about the following @Entity association between House and Window? 
+@Entity 
+public class 
+Window { @ld 
+private int winNo; 
+@ManyToOne 
+private House 
+aHouse; @Entity 
+public class House 
+{ @ld 
+private int houseNo; 
+@OneToMany(mappedBy="aHouse
+ ") private List windows; 
+} 
+· It's One ToMany unidirectional association 
+· It's One ToMany bidirectional association//Answer 
+· The association owner is the House class//Answer 
+· The association owner is the Window class 
+Which of the following are the features of REST 
+API? Options 
+· It is stateful. 
+· It supports JSON and XML.//Answer 
+· It is simple than SOAP.//Answer 
+· REST API can also be used for mapping data from a cloud platform to a data warehouse//Answer 
+Which of the following are the features of DevOps? 
+Options 
+· Automation.//Answer 
+· Collaboration.//Answer 
+· Integration.//Answer 
+· Deployment. 
+Jenkins. is a suite of plugins which supports implementing and integrating continuous delivery 
+pipelines into 
+Options 
+· Jenkins Pipeline//Answer 
+· Jenkins Job 
+· Jenkins build 
+· Jenkins procedure 
+Which statement/statements below is/are incorrect? 
+Options 
+· First of all method annotated as @BeforeAll execute only once. 
+· Lastly, the method annotated as @AfterAll executes only once. 
+· Method annotated as @Before executes for each test case but before executing 
+the test//Answer 
+· Fixture includes tearDown() method which runs after all test methods get executed. 
+Which folder is used to publish the html and web pages? 
+Options 
+· Static//Answer 
+· resources 
+· html 
+· jsp 
+Which of the following are true about handling "HTTP OPTIONS" method in Spring 
+REST? Options 
+· If the Request-URI is an asterisk ("*"), the OPTIONS request is intended to apply 
+to the se//Answer 
+· If the Request-URI is not an asterisk, the OPTIONS request applies only to the 
+options th communicating with that resource//Answer 
+· Responses to this method are cacheable 
+· Responses to this method are not cacheable//Answer 
+Select all the statements that are relevant and correct with respect to Spring framework. 
+Options 
+· DI offers more flexibility//Answer 
+· IOC and DI go together//Answer 
+· Spring DI encourages programming to interfaces//Answer 
+· Spring does not support programmatic configuration 
+JDBC Template class follows design pattern. Options 
+· factory 
+· observer 
+· template //Answer 
+· MVC 
+Which Bean type, when used with JPA, is connected to a database? Options 
+· jpa.Database 
+· javax.persistence.DatabaseConnection 
+· javax.sql.DatabaseConnection 
+· javax.sql.DataSource//Answer 
+Which is a peculiar quality of the Spring Boot platform? 
+Options 
+· It is scalable 
+· It is micro-service ready//Answer 
+· It is macro-service ready 
+· Undecided 
+annotates classes at the service 
+layer. Options 
+· @Component 
+· @Controller 
+· @Service//Answer 
+· @Repository 
+The Jenkins default username is 
+Options 
+A 
+· Admin//Answer 
+· jenkins 
+· user 
+· administrator 
+can be considered as a particular task to achieve a required objective in 
+Jenkins Options 
+· Job//Answer 
+· plugin 
+· pipeline 
+· function 
+Choose the components with which Jenkins is more closely integrated. 
+Options 
+· Build tools like Maven.//Answer 
+· Version Control systems like Git and SVN (Apache Subversion).//Answer 
+· Eclipse 
+· VS Code 
+Which attribute is used to set the scope of the bean? 
+Options 
+· Scope//Answer 
+· setScope 
+· getScope 
+· assignScope 
+What annotation would you apply to the component which holds business logic in your application? 
+Options 
+· @Component 
+· @Controller 
+· @Service//Answer 
+· @Repository 
+How can we hook initialization or clean up code in 
+Spring? Options 
+· Using custom init() and destroy() methods//Answer 
+· Using interfaces InitializingBean and DisposableBean//Answer 
+· Using <bean> tag 
+· Using @PostConstruct and @PreDestroy//Answer 
+Which of the following class is used to call REST Services? Options 
+· RestController 
+· Controller 
+· RestTemplate //Answer 
+· JdbcTemplate 
+Which of the following is true about AOP Advice? Options 
+· An action taken by an aspect at a particular Join point.//Answer 
+· A point during the execution of a program. 
+· An aspect and a Pointcut. 
+· A predicate that matches Join point 
+@Resource follows semantics. 
+Options 
+· constructor 
+· autodetect 
+· by-name//Answer 
+· by-type 
+annotation is used to have more control over selection of bean to be injected. 
+Options 
+· @Qualifier//Answer 
+· @Require 
+· @Value 
+· @Inject 
+What is not true for Spring framework? 
+Options 
+· Spring framework is a light weight framework 
+· Spring framework is not open source//Answer 
+· Spring provides Dependency Injection 
+· Spring targets only Java web application development//Answer 
+The annotation indicates that a particular class serves the role of a 
+repository. Options 
+· @Component 
+· @Controller 
+· @Service 
+· @Repository//Answer 
+Which of the following are the advantages of 
+IOC? Options 
+There is a tight coupling of the execution of a certain task from 
+implementation. Every module can focus on what it is designed for.//Answer 
+Replacing modules has no side effect on other 
+modules.//Answer It supports eager and lazy instantiation for 
+services.//Answer 
+Which are the modules of the Data Access/Integration layer? 
+Options 
+· JDBC, ORM, Web 
+· OJDBC, ORM, Beans 
+· JDBC, ORM, OXM, JMS, Transactions//Answer 
+· OJDBC, ORM, XML, JMS 
+What is the Life Cycle state as an object is no more associated with the session, modifications in the 
+data don't affect any changes in the database? 
+Options 
+· New/Transient//Answer 
+· Managed 
+· Detached 
+· Persisted 
+Which Spring module automatically provides implementations for CRUD operations on your database 
+entities? 
+Options 
+· Spring Security 
+· Spring ORM 
+· Spring MVC 
+· Spring Data//Answer 
+Consider the GreetingService class given below: 
+package com.test.service; 
+public class 
+GreetingService { private 
+String greeting; public 
+String getGreeting() { 
+return greeting; 
+} 
+public void setGreeting(String greeting) { 
+this greeting = greeting; 
+} 
+A Spring configuration file(config ml) defining bean of the GreetingService class is show below 
+<bean id = "greetingService" class = "com test service. Greeting Service" /> 
+The main method of the application includes the following statements: 
+ApplicationContext context = new ClassPathXmlApplicationContext("config.xml"); 
+Greeting Service greetingService = (Greeting Service) context. getBean("greeting 
+Service"); greetingService.setGreeting("Hi, Welcome to Spring Course!!"); 
+System.out. printIn(greeting Service. getGreeting()); 
+WebCam 
+What will happen when we execute the above main method? 
+Options 
+· Displays the greeting message "Hi, Welcome to Spring Course!!" //Answer 
+· Displays null as the greeting property is not initialized 
+· POJO class setter method cannot be invoked on the bean 
+· RunTime Exception 
+What are the sub-classes type, SpringApplication will attempt to create the right type of 
+ApplicationContext? 
+Options 
+· AnnotationConfigApplicationContext//Answer 
+· ConfigurableWebApplicationContext//Answer 
+· ServletWebServerApplicationContext//Answer 
+· AnnotationConfigServletWebServerApplicationContext 
+· ConfigurableWebServerApplicationContext 
+Service 
+@Transactional(readOnly = true, propagation = 
+Propagation. REQUIRED) 
+public class UserServicelmpl implements 
+UserService { 
+@Transactional (propagation = Propagation. 
+REQUIRES_NEW) 
+@Override 
+public User findByld(Long id) { 
+return userRepo. findByld(id); 
+}} 
+What can be said about the findByld() method? 
+• The method is executed in a new transaction//Answer 
+· When a method is executed, an exception will be thrown because the transaction is not c 
+• The method is executed in an existing transaction 
+• The method is executed in a new transaction by terminating the outer transaction 
+Choose all statements that describe Spring MVC. 
+• It follows MVC-II model 
+• It follows Front Controller Design Pattern//Answer 
+• It follows MVC -I model 
+• DispatcherServlet acts as front controller//Answer 
+Which of the following is a repository hosting service tool that features collaboration and access 
+control? 
+Options 
+• Bitbucket 
+• Git 
+• Github//Answer 
+• docker hub 
+Which of the following are true regarding the below Spring controller? 
+@RestController 
+public class OwnerController { 
+@RequestMapping(value = "/owner/{ownerld}", method = RequestMethod.POST) 
+@ResponseBody 
+public Owner findOwner(@PathVariable("ownerld") int ownerld) { 
+return new Owner(); 
+} 
+} 
+Options 
+• RequestMethod.GET method is more accurate than POST//Answer 
+• @PathVariable should be replaced with the @PathParam annotation 
+• Returning the 201 HTTP status code is better 
+• @ResponseBody could be removed//Answer 
+In addition to application.properties files, profile-specific properties can also be defined by using the 
+following naming convention. 
+Options 
+A 
+• application-default-{profile).properties 
+• application-{profile}.properties //Answer 
+• application-{profile}.yml //Answer 
+• application-default.properties //Answer 
+block defines a conceptually distinct subset of tasks performed through the entire 
+pipeline. Options 
+• Stage//Answer 
+• Node 
+• step 
+• job 
+What is the purpose of assertArrayEquals(A, 
+B,"message")? Options 
+• Checks that "message" is in both A and B 
+• Checks that "message" is in A but not B 
+• Checks that "message" is in B but not A 
+• Asserts the equality of the A and B arrays//Answer 
+Which among these is not an application server provided by Spring Boot? 
+Options 
+• Embedded tomcat 
+• Undertow 
+• Jetty 
+• Binary link//Answer 
+If you find that specific auto-configuration classes that you do not want are being applied, you can 
+use the exclude attribute of to disable them. 
+Options 
+• @Configuration 
+• @EnableAutoConfiguration//Answer 
+• @SpringBootConfiguration 
+• @ComponentScan 
+Which of the following are DevOps tool? 
+Options 
+• Git//Answer 
+• Jenkins//Answer 
+• Maven//Answer 
+• Eclipse 
+Which of the following are true regarding spring beans? 
+• Spring beans are managed by the Spring loC container.//Answer 
+• Spring beans are instantiated, assembled, and otherwise managed by a Spring loC container 
+//Answer 
+• Spring beans are simple POJOs.//Answer 
+• It is a must to configure spring beans in XML. 
+The software engineering practice of merging all developer working copies to the shared mainline 
+several times aday is known as 
+Options 
+• Continuous integration//Answer 
+• Continuous deployment 
+• Continuous delivery 
+• DevOps 
+For consistent exception handling, which annotation is used to translate Hibernate exceptions into 
+Spring DataAccessException? 
+Options 
+• @Translation 
+• @Repo 
+• @Repository//Answer 
+• @Component 
+Which of the following are build automation 
+tool? Options 
+• Gradle//Answer 
+• Maven//Answer 
+• Jenkins//Answer 
+• Docker 
+Which of the following Hibernate session method hits database always? 
+Options 
+• get()//Answer 
+• load() 
+• loadDatabase() 
+· getDatabase() 
+Select a statement that is TRUE in relation to the After Throwing advice. 
+Options 
+· The advice which handles the exceptions thrown from the Join point 
+· The advice that gets executed only when the Join point throws an exception. 
+· Advice that gets executed before the Join point. 
+· Advice that gets executed only when the Join point executes successfully 
+The correct expression form for 
+SpEL is Options 
+· {{<expression string> }} 
+· #{ <expression string> }//Answer 
+· #<expression string> 
+· ${<expression string>} 
+Which one of the following allows a single team to handle the entire application lifecycle from 
+development to testing, deployment, and operations? 
+Options 
+· Jenkins 
+· DevOps//Answer 
+· Git 
+· Maven 
+Given the following configuration class, Choose the correct statements. 
+public class ApplicationConfig { 
+private DataSource dataSource; 
+@Autowired 
+public ApplicationConfig(DataSource dataSource) { 
+this.dataSource = dataSource; 
+} 
+@Bean(name="clientRepository") 
+ClientRepository jpaClientRepository() { 
+return new JpaClientRepository(); 
+}} 
+Options 
+· @Configuration annotation is missing//Answer 
+· Default or no-arg constructor is missing//Answer 
+· @Bean name is ambiguous 
+· @Bean scope is prototype 
+What is the type returned by the findByld() method implemented by default by a CrudRepository? 
+Options 
+· List 
+· String 
+· The type mapped to the CrudRepository 
+· Optional Class//Answer 
+is executed after a join point completes normally i.e., if a method returns without throwing an exception 
+Options 
+· After Return Advice//Answer 
+· After Advice 
+· Around Advice 
+· After Throwing Advice 
+To enable all actuator end points for monitoring, which of the following property should be enabled. 
+Options 
+· management endpoints web exposure include="//Answer 
+· management endpoints web exposure.all=" 
+· management endpoints web exposure enable=" 
+· management endpoints enable exposure=" 
+In a Spring application, it is possible to define a class which maps to a table in a relational database 
+Which of these Spring annotations can be applied to such a class to map it to a specific table in 
+the connected date? 
+Options 
+· @Record 
+· @DBTable 
+· @Map 
+· @Table//Answer 
+is the factory class that is used to get the Session 
+objects Options 
+· SessionFactory//Answer 
+· ConnectionFactory 
+· Configuration 
+· HibernateSession 
+Select the statement regarding Spring Data JPA that is 
+true. Options 
+· It is an loC container to manage beans. 
+· It is meant to access data in a Redis store 
+· It is one of the projects under the Spring Data umbrella.//Answer 
+· It is meant to work with data in graph databases 
+Which annotation is used to retrieve path params? 
+Options 
+· @PathVariable//Answer 
+· @RequestParam 
+· @Param 
+· @RequestParameter 
+Which of the following REST URI is used to retrieve all the 
+users? Options 
+· GIT/users 
+· GET/used 
+· GET/users//Answer 
+· GIT/used 
+Where does the spring container locates the definition of DispatcherServlet? 
+Options 
+· In the bean configuration file 
+· In the web.xml//Answer 
+· META-INF/dispatcher.xml 
+· 00 WEB-INF/dispatcher.xml 
+Which of the following is not a DevOps tool? 
+Options 
+• Git 
+• Jenkins 
+• Maven 
+• Gradle//Answer 
+· Eclipse 
+Which of the following is the loC containers in Spring? 
+Options 
+• BeanFactory, BeanContext, locContextFactory 
+• BeanFactory, ApplicationContext //Answer 
+· BeanFactory, ApplicationContext, BeanContext 
+• BeanFactory, ApplicationContext, locContextFactory 
+What will be the output for the following piece of code? 
+//The JUnit files are imported public class TestClass 
+‹ @Test 
+public void testingMethod() { 
+String message = "Test"; 
+assertEquals(3,message.lengt
+ h()); 
+}} 
+Options 
+· Compilation Error 
+· Runtime Error 
+· Test Ran with Success 
+· Test Ran with Failure//Answer 
+Which artifact provides the inheritance for all the necessary 
+dependencies? Options 
+· spring-boot-starter-parent//Answer 
+· spring-boot-starter 
+· spring-boot-maven-plugin 
+· spring-boot-starter-web 
+In Spring, which class/interface is used to map a database row to a Java object? 
+Options 
+· ResultSet 
+· RowSetMapper 
+· ResultSetMapper 
+· RowMapper//Answer 
+In which phase DevOps really kicks 
+in? Options 
+· Build//Answer 
+· Plan 
+· Code 
+· Release 
+Which of the following tools provide quick build for distributed systems? 
+Options 
+· Spring solution 
+· Spring boot 
+· Spring cloud//Answer 
+· Spring MVC 
+Which of these are valid in the use of the @RequestMapping annotation, in Spring MVC? 
+Options 
+· @RequestMapping(method RequestMethod GET) 
+· @RequestMapping("/")//Answer 
+· @RequestMapping(value="offline", method RequestMethod GET)//Answer 
+· @RequestMapping(name "") 
+Select the correct option that describes the responsibilities of XmlBeanFactory. 
+Options 
+· This implementation allows you to express the objects that compose your application//Answer 
+· Resolve inter-dependencies between such objects, in terms of XML //Answer 
+· The XmlBeanFactory takes this XML configuration metadata and uses it to create a 
+fully configured system or application//Answer 
+· It is just an interface and does not contain any implementation 
+Prefix and Suffix are the properties of 
+Options 
+· Abstract Controller 
+· Form Controller 
+· DefaultHandlerMapping 
+· Internal ResourceViewResolver//Answer 
+What is true about the following @Entity association between House and Window? 
+@Entity 
+@ld 
+private int winNo; 
+public class Window { private House aHouse; 
+ToOne 
+@Entity 
+public class House { 
+@ld 
+private int houseNo; 
+@OneToMany(mappedBy="aHouse") 
+private List windows; 
+Options 
+· It's One ToMany unidirectional association 
+· It's One ToMany bidirectional association//Answer 
+· The association owner is the House class 
+· The association owner is the Window class 
+The. annotation indicates that a particular class serves the role of a controller. 
+· @Component 
+· @Controller//Answer 
+· @service 
+· @Repository 
+Which of the following is the correct sequence of Spring Bean life cycle? 
+Options 
+· Instantiation,2) Dependency Injection,3) Initialization,4) Business Method 
+Excecution,5) Destruction//Answer 
+· Instantiation,2) Initialization,3) Dependency Injection,4) Business Method 
+Excecution,5) Destruction 
+· Instantiation,2) Initialization,3) Business Method Excecution 4) Dependency 
+Injection,5) Destruction 
+· Instantiation,2) Dependency Injection,3) Business Method Excecution 
+Which of the following features helps in developing a loosely coupled application in Spring? 
+Options 
+· POJO based programming//Answer 
+· Invasive feature 
+· Dependency Injection//Answer 
+· AOP//Answer 
+DAO implementation needs access to persistence resource, to inject this resource which of these 
+annotations will be used 
+Options 
+· @Autowire//Answer 
+· @Context 
+· @Resource//Answer 
+· @inject 
+What are the different Advice types present in Spring 
+AOP? Options 
+· When, After, After-Returning, Around 
+· When, After, Around, After-Returning 
+· Before, After, After-Returning, After-Throwing, Around //Answer 
+· Where, After, After-Returning, After-Throwing, Around 
+Jenkins is a tool: 
+Options 
+· Continuous Integration Continuous Delivery //Answer 
+· Build 
+· Deployment 
+· Versioning 
+In which phase DevOps really kicks 
+in? Options 
+· Build//Answer 
+· Plan 
+· Code 
+· Release 
+Select the option for which the 'Autowired' annotation can be applied. 
+Options 
+· constructors and methods 
+· fields, setters and getters 
+· Constructors //Answer 
+· fields, constructors, methods 
+Phase -3 
+1.What are the features of Jenkins? 
+▪ It is a free and open-source automation tool//Ans 
+▪ Jenkins provides a vast number of plugins//Ans 
+▪ It is difficult to set up and install on multiple operating systems 
+▪ Provides pipeline support.//Ans 
+2. Assume you have implemented a one-to-one relationship in your JPA application using the 
+@Mapsid annotation in one of the entity class definitions. Which statement about the 
+corresponding tables created is TRUE? 
+• There will be two tables with foreign key references in both classes, referencing each 
+other 
+• No tables will be created 
+• There will only be a single table created with one entity embedded in the other 
+• There will be two tables with a foreign key reference from one class to another//Ans 
+3. Which techniques using Spring will achieve inversion of control? 
+▪ Model-view-controller paradigm 
+▪ Factory pattern//Ans 
+▪ Builder pattern 
+▪ Dependency injection//Ans 
+▪ Server locator pattern//ANS 
+4.Which annotations can be added to your Spring Boot application to enable auto
+configuration? 
+▪ @EnableAutoConfiguration//Ans 
+▪ @EnableAutoConf 
+▪ @SpringBootApplication//Ans 
+▪ @EnableSpringAutoConfiguration 
+▪ @SpringBootAutoConfiguration 
+5: Choose the components with which Jenkins is more closely integrated 
+▪ Build tools like Maven//ans 
+▪ Version Control systems like Git and SVN (Apache Subversion)//Ans 
+▪ Eclipse 
+▪ VS Code 
+6. Which of the following properties can be used to configure a column in the JPA @Column 
+annotation? 
+▪ columnLength 
+▪ column Type 
+▪ columnDefinition//Ans 
+▪ precision//Ans 
+▪ scale//Ans 
+7. Where can you add an external browser and change the default for the Spring Boot 
+Dashboard? 
+▪ Spring Tool Suite -> 4 Preferences ->General-> Web Browser//Ans 
+▪ Spring-> Boot Dashboard -> Preferences-> Web Browser -> General 
+▪ Spring Tool Suite-> 4 Boot Dashboard -> General 
+▪ Boot Dashboard-> Show Properties-> Web Browser 
+8. Which of the following is true when you use the @IdClass annotation to specify composite 
+keys? 
+▪ We do not need an additional class representing the composite key 
+▪ We need an additional class representing the composite key//Ans 
+▪ This annotation is to send up relationships and not to specify keys 
+▪ We need to use @ld annotations on composite key fields in the entity class//Ans 
+(9). Cyber Data team is working on a project which uses Spring JDBC with Spring Boot. Help the 
+team to identify which of the below operations are supported and will be automatically handled 
+by Spring Boot JDBC? 
+▪ Setting up loop for iterating over results 
+▪ Specifying SQL statements, declaring parameters and providing values 
+▪ Defining connection parameters like driver class name, database URL, username and 
+password//Ans 
+▪ Opening connection, Preparing and executing statements, Processing exceptions, 
+Handling Transactions, Closing.//Ans 
+10. If you have configured a table that you want to use to generate primary keys using the TABLE 
+generation strategy, which of the following statements are true? 
+▪ Each table has an auto-incremented column for primary keys 
+▪ While sharing a database tables every entity which uses the TABLE strategy needs to 
+have an entry in the shared table//Ans 
+▪ Every entity which uses the TABLE strategy needs to have a separate table 
+▪ Multiple can share the same table tables for primary key generation//Ans 
+11. Which of the following is true about update and delete queries in JPQL? 
+▪ You need to run these queries within a transaction//Ans 
+▪ JPQL can perform these queries on only record at a time 
+▪ JPQL does not support these queries 
+▪ You need to invoke executeUpdate() to run these queries//Ans 
+12. Assume you have configured your persistence.xml file with the property javax persistence 
+schema- generation.database action with a value of drop-and-create. You have also set 
+properties for a create script, a load script and a drop script with the names of create sql, 
+drop.sql and load.sql. What is the order of execution of these scripts? 
+• create sql, load sql, drop sql 
+• drop sql, create sql, load sql//Ans 
+• load sql, drop.sql, create.sql 
+• The order is randomly assigned 
+13.The DataCore team uses the Spring framework for its data access layer's implementations, 
+Initially, the team had used Spring JDBC, later migrated to Spring ORM. As per the current 
+requirements, now the client needs the data access layer to be implemented using Spring Data 
+JPA. Help the team identify, which among the following can be easily achieved using Spring Data 
+JPA for the above implementation? 
+▪ Spring Data JPA provides common database operations support to an application, hence 
+developers need not implement them//Ans 
+▪ Spring Data JPA provides inconsistency in data access layer implementation by using its 
+interfaces. 
+▪ Spring Data provides support for both SQL and NoSQL databases 
+▪ Spring Data JPA reduces the number of artifacts in the data access layer as the only 
+artifact required is the interface extends jpa repository//Ans 
+D)14.Which of the following are the features of DevOps? 
+▪ Automation//Ans 
+▪ Collaboration//ans 
+▪ Integration//ams 
+▪ Deployment 
+15.Which are the embedded servers that the spring-boot-starter-web dependency 
+supports? 
+▪ Undertow//Ans 
+▪ httpserver 
+▪ Jetty//Ans 
+▪ Tomcat//ANS 
+▪ lls 
+D(16).What Spring Starter Project options are configurable from the New Spring Start 
+Project popup? 
+▪ Port 
+▪ Name//ans 
+▪ Service URL 
+▪ Java Version//ans 
+▪ Package//ans 
+▪ Annotation Class 
+D(17).The development team is working on fund Transfer method of Banking application. 
+The team wants to know the default rollback policy in Spring transaction management. 
+Identify the Correct options from the given statements 
+▪ Rollback for any Exception// ans 
+▪ Rollback for RuntimeException//ans 
+▪ Rollback for checked exceptions 
+▪ Always commit 
+▪ commit for checked exceptions 
+(D)19. Which of the following are advantages of modelling relationships using embedded 
+objects? 
+▪ The same embeddable can be shared across multiple entities//Ans 
+▪ JPA providers are more performant with embedded objects 
+▪ Easier to use embeddables rather than individual fields//Ans 
+▪ Can represent relationships using composition in the object-oriented world//ANS 
+20.How can you select multiple fields using a Criteria API query? 
+▪ Using the criteriaQuery selectAll() method//Ans 
+▪ Using the criteriaQuery select() method 
+▪ Using the criteriaQuery multiselect() method//Ans 
+▪ This is not possible using the criteria API. 
+21.Select the correct statements about JPA and Hibernate. 
+▪ JPA is an implementation of Hibernate/ 
+▪ Hibernate is a specification for persisting data 
+▪ JPA is a specification for persisting data//Ans 
+▪ Hibernate is an implementation of JPA.//Ans 
+22.Within your programming language you want to model composition i. e, one object is 
+composed or nested within another. However, the fields of the nested object map to database 
+table columns of the outer entity. What annotation will you use? 
+• @Flatten 
+• @Compose 
+• @Embedded//ans 
+• @Nested 
+• @Composite Embedded 
+23.Which of the following are the advantages of Jenkins? 
+▪  Cost Savings//ANS 
+▪ Plugin EcoSystem//ANS 
+▪  Increased Productivity//ANS 
+▪ Increased Development Time 
+24.What annotation must be used when creating a Rest Template Application method using the 
+Rest TemplateBuilder to call REST services from other Spring Boot applications? 
+• @BeanApplication 
+• @Spring 
+• @SpringBeanApplication 
+• @Bean//Ans ------ 
+25.Which of the following are build automation tool? 
+▪  Gradle//ans 
+▪ Maven//Ans 
+▪ Jenkins//Ans 
+▪ Docker 
+26.Which of the following is true for the generation strategy SEQUENCE for primary key 
+generation? 
+▪ It uses an auto-incremented column to produce a sequence of primary keys 
+▪ It uses a database sequence generator to generate primary keys//ANS 
+▪ Multiple tables can use the same sequence generator//Ans 
+▪ It uses a shared table where sequential primary keys are stored 
+27.There is a member variable in Entity object which does not map to any database table 
+column. What should we do with that member variable? 
+• Do nothing, JPA+ Hibernate will figure out that the column is not mapped 
+• Annotate it using the @DoNotPersist annotation 
+• Move the field out into a nested object 
+• Annotate it using the Transient annotation//ANs 
+-- 
+28.Select the method signatures in a CrudRepository which are equivalent 
+▪ Car findTopByOrderByPrice()//Ans 
+▪ Car findFirstByOrderByPrice()//Ans 
+▪ Car findFirstByOrderByPriceDesc() 
+▪ Car findBySortByPriceLimit1() 
+29. Assume you have a class called Car and this has the following variables: id, make, model and 
+price. You would like Spring to implement a method which returns all cars which have a price 
+lower than a specified value. Which derived query method signatures will accomplish this? 
+• List<Car> findByPriceLess Than (double price);//Ans 
+• List<Car> findTopByPriceOrderByPriceAsc()(double price); 
+• Car findByPrice Lowest(double price); 
+• List<Car> findCarsCheaper Than(double price); 
+30. Which of the following is true for the generation strategy SEQUENCE for primary key 
+generation? 
+▪ It uses an auto-incremented column to produce a sequence of primary keys 
+▪ It uses a database sequence generator to generate primary keys//Ans 
+▪ Multiple tables can use the same sequence generator//Ans 
+▪ It uses a shared table where sequential primary keys are stored 
+31. Assume you have a class called Car and this has the following variables: id, make, model and 
+price. You would like to search for cars matching a particular model value, but you are not sure 
+about the case used in the model, and you want the search to be case-insensitive. Which derived 
+query methods can you configure in your CrudRepository to serve this purpose? 
+• findByModellgnoreCase(String model)//Ans 
+• findByMakeAndModel(String make, String model) 
+• findByModel(String model) 
+• findByModelLike(String make) 
+(D)33.  Which of the following statements are true about entities? 
+▪ Entity objects correspond to records in a database table//Ans 
+▪ They map to relationships between tables in a database//Ans 
+▪ They map to a table in the underlying database 
+▪ They represent constraints on values in a database table 
+34. When deploying your web application as an external war file what are the first two details you 
+need to specify in your app? 
+▪ Have your configuration derive from SpringBootServletInitializer//Ans 
+▪ Set the Maven packaging as "war"//Ans 
+▪ Set the Maven packaging as external-war 
+▪ Have your configuration have the annotation @ExternalWar 
+35. Which of the following are the features of REST API? 
+▪ It is stateful. 
+▪ It supports JSON and XML.//Answer 
+▪ It is simple than SOAP.//Answer 
+▪ REST API can also be used for mapping data from a cloud platform to a data 
+warehouse//Answer 
+D)36.  Which of the following are true about handling "HTTP OPTIONS" method in Spring REST? 
+▪ If the Request-URI is an asterisk ("*"), the OPTIONS request is intended to apply to 
+these//Answer 
+▪ If the Request-URI is not an asterisk, the OPTIONS request applies only to the options 
+that communicating with that resource//Answer 
+▪ Responses to this method are cacheable 
+▪ Responses to this method are not cacheable//Answer 
+37. Select all the statements that are relevant and correct with respect to Spring framework. 
+▪ DI offers more flexibility//Answer 
+▪ IOC and DI go together//Answer 
+▪ Spring DI encourages programming to interfaces//Answer 
+▪ Spring does not support programmatic configuration 
+38.  How can we hook initialization or clean up code in Spring? 
+▪ Using custom init() and destroy() methods//Answer 
+▪ Using interfaces InitializingBean and DisposableBean//Answer 
+▪ Using <bean> tag 
+▪ Using @PostConstruct and @PreDestroy//Answer 
+39.  What is not true for Spring framework? 
+▪ Spring framework is a light weight framework 
+▪ Spring framework is not open source//Answer 
+▪ Spring provides Dependency Injection 
+▪ Spring targets only Java web application development//Answer 
+40.  Which of the following are the advantages of IOC? 
+▪ There is a tight coupling of the execution of a certain task from implementation. 
+▪ Every module can focus on what it is designed for.//Answer 
+▪ Replacing modules has no side effect on other modules.//Answer 
+▪ It supports eager and lazy instantiation for services.//Answer 
+41.  What are the sub-classes type, SpringApplication will attempt to create the right type of 
+ApplicationContext? 
+▪ AnnotationConfigApplicationContext//Answer 
+▪ ConfigurableWebApplicationContext//Answer 
+▪ ServletWebServerApplicationContext//Answer 
+▪ AnnotationConfigServletWebServerApplicationContext 
+▪ ConfigurableWebServerApplicationContext 
+42.  Choose all statements that describe Spring MVC. 
+▪ It follows MVC-II model 
+▪ It follows Front Controller Design Pattern//Answer 
+▪ It follows MVC -I model 
+▪ DispatcherServlet acts as front controller//Answer 
+43.  In addition to application.properties files, profile-specific properties can also be 
+defined by using the following naming convention. 
+Options 
+▪ application-default-{profile).properties 
+▪ application-{profile}.properties //Answer 
+▪ application-{profile}.yml //Answer 
+▪ application-default.properties //Answer 
+44.  Which of the following are true regarding spring beans? 
+▪ Spring beans are managed by the Spring loC container.//Answer 
+▪ Spring beans are instantiated, assembled, and otherwise managed by a Spring loC 
+container//Answer 
+▪ Spring beans are simple POJOs.//Answer 
+▪ It is a must to configure spring beans in XML. 
+D)45.   Which of these are valid in the use of the @RequestMapping annotation, in Spring MVC? 
+▪ @RequestMapping(method RequestMethod GET) 
+▪ @RequestMapping("/")//Answer 
+▪ @RequestMapping(value="offline", method RequestMethod GET)//Answer 
+▪ @RequestMapping(name "") 
+46.   Select the correct option that describes the responsibilities of XmlBeanFactory. 
+Options 
+▪ This implementation allows you to express the objects that compose your 
+application//Answer 
+▪ Resolve inter-dependencies between such objects, in terms of XML //Answer 
+▪ The XmlBeanFactory takes this XML configuration metadata and uses it to create a fully 
+configured system or application//Answer 
+▪ It is just an interface and does not contain any implementation 
+47.  Which of the following features helps in developing a loosely coupled application in Spring? 
+Options 
+▪ POJO based programming//Answer 
+▪ Invasive feature 
+▪ Dependency Injection//Answer 
+▪ AOP//Answer 
+48.  DAO implementation needs access to persistence resource, to inject this resource which of 
+these 
+annotations will be used 
+Options 
+▪ @Autowire//Answer 
+▪ @Context 
+▪ @Resource//Answer 
+▪ @inject 
+49. Which of the following are the advantages of Spring Boot? 
+Options 
+▪ Create stand-alone Spring applications that you can just run.//Answer 
+▪ It basically removes a lot of configurations and dependencies.//Answer 
+▪ It provides opinionated 'starter' POMS to simplify your Maven configuration.//Answer 
+▪ We need to configure Spring Boot manually 
+50.  Which of the following are Hibernate-specific Spring infrastructure beans? 
+Options 
+▪ SessionFactory//Answer 
+▪ Session 
+▪ Hibernate TransactionManager//Answer 
+▪ HikariDataSource 
+▪ LocalSessionFactoryBean//Answer 
+51. @Autowired annotation can be applied to members in a class. 
+Options 
+▪ Setters & Getters 
+▪ Setters//Answer 
+▪ Constructors//Answer 
+▪ Fields//Answer 
+52.  What are the different ways to configure metadata in Spring? 
+Options 
+▪ XML Based configuration file//Answer 
+▪ Annotation based configuration//Answer 
+▪ Java based configuration//Answer 
+▪ Only XML or Annotation based is possible but not Java based 
+53.   Which of the following are the valid types of Hibernate object states? 
+Options 
+▪ persistent object//Answer 
+▪ transient obiect//Answer 
+▪ detached object//Answer 
+▪ attached object 
+Which of the following is the correct sequence of Spring Bean life cycle?  
+Options  
+• Instantiation,2) Dependency Injection,3) Initialization,4) Business Method Excecution,5) 
+Destruction//Answer  
+• Instantiation,2) Initialization,3) Dependency Injection,4) Business Method Excecution,5) 
+Destruction  
+• Instantiation,2) Initialization,3) Business Method Excecution 4) Dependency Injection,5) 
+Destruction  
+• Instantiation,2) Dependency Injection,3) Business Method Excecution  
+ 
+ 
+ 
+ 
+ 
+                                             CODE SNIP 
+ 
+ 
+ 
+(1).User 
+John works on a code implemented using Transactional annotation. Help him identify which 
+among the lowing we come uniges of the annotation? 
+ 
+▪ (A) 
+ 
+@Transactional 
+public interface DataStoreService{ 
+ void updateDetaStoreDetails (DetaStore DetaStore); 
+ void insertDataStoreDetails (DetaStore DetaStore); 
+} 
+▪ (B)  //Ans 
+@Transactional 
+public class DataStoreServiceImpl{ 
+//code goma hare 
+public void updateDataStormDetails (DataStore detaStore){ 
+public void insertDetaStoreDetails(DetaStore dataStore){ 
+//code goes hars 
+} 
+} 
+▪ (C) //Ans 
+public class DataStoreServiceImpl{ 
+@Transactional 
+ public void updateDetalltoreDetails (Datastore Datastore){ 
+//code goes here 
+} 
+▪ D) 
+public class DataStoreServiceImpl { 
+public void updateDataStageDetails (Datalitore datastore) { 
+@ Transactional 
+//code goes here 
+} 
+} 
+2. Consider the below given Spring Application code. 
+package com.test.service: 
+public class EmployeeService { 
+private int employeeNo 
+private String employeeName: 
+@Autowired 
+private Employee employee: 
+//getter and setter methods for all properties 
+} 
+package com.test.model: 
+public class Employee{ 
+private int employeeId; 
+private String name; 
+private String role; 
+//getter and setter methods for all properties 
+Assume required beans are available in the Spring configuration. Select the correct options for 
+the scenario mentioned above. 
+▪ Autowiring is generally advisable for workflow classes such as controller, service and 
+repository classes.//Ans 
+▪ Code throws compilation error as @Autowired has been used in Employee Service class 
+on domain reference(Employee employee). 
+▪  Domain object has to be created using new operator during database access to 
+represent the data in a database. 
+▪ It is generally not advisable to make domain objects as Spring beans.//Ans 
+3. MphasisRun application has been developed to maintain the history of employees 
+participating in all the run events organized by the company. The team uses JpaRepository for 
+its back end implementation. The entity class used for storing the employee details in coded as 
+shown below 
+@Entity 
+public class MphasiaRunners ( 
+@Id 
+private Integer mphasisRunnerEmpId; 
+private String mphasisRunner EmpName: 
+//getters and setters 
+} 
+Assume that mphasisRunners is an instance of MphasisRunners class. Help the team decide 
+which among the following methods can be used to persist the MphasisRunners record? 
+▪ save(mphasis Runners)//Ans 
+▪ persist(mphasisRunners) 
+▪ saveAndFlush(mphasisRunners)//Ans 
+▪ save(mphasisRunnerEmpld) 
+4. Given the below code. (Assume necessary imports are done.) 
+@RestController 
+@RequestMapping("/employee")  
+public class EmployeeController 
+{ 
+@PostMapping("/create") 
+public EmployeeDTO addEmployee (@RequestBody EmployeeDTO employeeDTO){ 
+//code to add employee and return the same back 
+} 
+} 
+Choose the correct statement. 
+ 
+• @PostMapping is not supported when the controller class is annotated with 
+@RequestMapping 
+ 
+• @PostMapping is not allowed to hold path matching info ("/create") 
+ 
+• Compilation Error 
+ 
+• This controller is perfectly fine and will work as expected //Ans 
+ 
+5. Consider the below given Spring Application code 
+ package com.test. service; 
+public class EmployeeService{ 
+         private int employeello: 
+        private String employeeName; 
+      @Autowired 
+      private Employee employee; 
+          //getter and setter methods for all properties 
+} 
+package com.test.model; 
+        public class Employee{ 
+        private int employeeId: 
+        private String name; 
+        private String role; 
+ 
+//getter and setter methods for all properties 
+} 
+Assume required beans are available in the Spring configuration. Select the correct options for 
+the scenario mentioned above. 
+ 
+▪ Autowiring is generally advisable for workflow classes such as controller, service and 
+repository classes.//Ans 
+ 
+▪ Code throws compilation error as @Autowired has been used in Employee Service class 
+on domain reference(Employee employee). 
+ 
+▪ Domain object has to be created using new operator during database access to 
+represent the data in a database. 
+ 
+▪ It is generally not advisable to make domain objects as Spring beans.//Ans 
+ 
+ 
+ 
+(6). Consider the following classes defined in a Spring Application: 
+ 
+package com.mphasis.service; 
+public class MobileService { 
+           long mobile Number; 
+           String model; 
+            public Mobileservice (long mobileNumber, String model) { 
+                               this. mobileNumber = mobileNumber; 
+                               this.model= model; 
+         } 
+           public MobileService() { 
+         } 
+         //getter and setter methods 
+} 
+package com.mphasis.service;  
+public class PersonService ( 
+        private Mobileservice mobile; 
+      //getter and setter methods 
+} 
+The Spring configuration file includes the following declarations: 
+<bean id="ml" class="com.mphasis.service.MobileService">  
+                           <constructor-arg value="93423" /> 
+                           <constructor-arg value="Nokia" /> 
+</bean> 
+<bean id="personService" class="com.mphasis.service. PersonService" autowire="no" /> 
+The main method for the application is defined as follows: 
+ApplicationContext ac= new ClassPathalApplicationContext("config.xml"); 
+Personservice pl= (PersonService) context.getBean("personService"); 
+System.out.println(pl.getMobile().getModel()); 
+What is the output of the above code execution? 
+ 
+• Throws Exception//Ans 
+• Display mobile name as "Nokia" 
+• Display mobile name as null 
+• Display model name as null 
+(7. Identify the correct annotation to be placed in the blanks given below. 
+ package mypack; 
+@Repository (value = "librarydaobean") 
+public class Library DAOImpl implements ILibraryDAO 
+{ private EntityManagerFactory emf; ------------------------------------------------------- 
+public void setEntityManagerFactory (EntityManagerFactory emf) 
+{                    this.emf = emf;  
+} 
+▪ @Persistence Unit 
+ 
+▪ @PersistenceContext//Ans 
+ 
+▪ @Persistence 
+ 
+▪ @Autowired//Ans 
+ 
+(D)8. Assuming necessary imports are done, what is the output when following code is 
+executed? 
+package com.test.service;  
+@Service 
+public class CustomerService { 
+public Customer Service () { 
+                   System.out.print("Customerservice constructor called ") 
+            } 
+} 
+package com.test.dao; 
+@Repository 
+public class CustomerDao { 
+public Customerbao(){ 
+           System.out.print("CustomerDao constructor called "); 
+} 
+} 
+package com.test 
+ @SpringBootApplication 
+public class DemoSpringBootApplication { 
+            public static void main(String[] args) { 
+                                 SpringApplication.run(DemoSpringBootApplication, class, args); 
+                             } 
+} 
+ 
+• CustomerService constructor called CustomerDao constructor called//Ans 
+• CustomerDao constructor called CustomerService constructor called 
+• Exception is Thrown at Runtime 
+• Nothing will be displayed in console. 
+ 
+9. Given the below code: 
+@RestController 
+@RequestMapping("/friendsfamily") 
+public class FriendsFamilyController 
+{ 
+           @GetMapping("/(phoneNumber)") 
+            public Friends FamilyDTO getFriendsFamily(){ 
+          //code to search for Friends Family based on the phone number and return the same 
+    } 
+} 
+Choose the correct line of code that should occupy the parameter section of the request 
+method. 
+ 
+• @PathParam("phoneNumber") long phoneNumber 
+ 
+• @RequestParam("phoneNumber") long phone Number 
+ 
+• @PathVariable("phoneNumber") long phoneNumber//Ans 
+ 
+• @RequestBody("phoneNumber") long phoneNumber 
+ 
+10. Which of the following are true regarding the below Spring controller? 
+@RestController 
+public class OwnerController { 
+         @RequestMapping(value = "/owner/ownerId)", method = RequestMethod. POST) 
+         @ResponseBody 
+         public Owner findOwner(@PathVariable("ownerId") int ownerId) { 
+         return new Owner(); 
+   } 
+} 
+ 
+▪ RequestMethod.GET method is more accurate than POST 
+ 
+▪ @PathVariable should be replaced with the @PathParam annotation 
+ 
+▪ @ResponseBody could be removed//Ans 
+ 
+▪ Returning the 201 HTTP status code is better//Ans 
+ 
+11. For the code given below, choose the equivalent option. 
+package com.foo 
+@Configuration 
+public class AcmeConfig ( 
+@Bean 
+ public AcmeService acmeService() { 
+      return new AcmeServiceImpl(); 
+   } 
+} 
+ 
+ 
+(A)  
+<beans> 
+<bean id="acmeConfig" class="com.AcmeService"/> </beans> 
+(B) 
+<beans> 
+<bean id="acmeService" class="com.AcmeServiceImpl"/> 
+</beans> 
+(C) 
+<beans> 
+<bean id="acmeConfig" class="AcmeServiceImpl"/> 
+</beans> 
+(D) 
+<beans> 
+<bean id="acmeConfig" className="com.foo.AcmeServiceImpl"/> 
+</beans> 
+(E)//Ans 
+<beans> 
+      <bean id="acmeService" class="com.foo.AcmeServiceImpl"/> 
+      <beans> 
+12) Given the below code: 
+@Component("user") 
+public class User 
+{ 
+         @Value ("100") 
+          private int id; 
+         //@Value("John") 
+        @Value("#{'John'.toUpperCase())") 
+         private String firstName; 
+         @Value ("Doe") 
+        private String lastName; 
+        @Value("#{user.firstName.concat (‘   ‘) .concat(user.lastName)}") 
+         private String fullName; 
+       @Value ("#{hobbies[‘1’]}”) 
+       private String hobby; 
+       @Value("#{400 > 300 || 150<100}”) // true 
+        private boolean flag: 
+// Getter Setter methods 
+} 
+Config.xml: 
+<util:list list-class="java.util.ArrayList" id="hobbies"> 
+                <value>Singing</value> 
+                 <value>Dancing</value>  
+                 <value>Reading</value> 
+</util:list> 
+What will be the output of these fields when printed? 
+• id=100 fullName JOHN DOE, hobby-Dancing, flag=false 
+• id=100. fullName JOHN Doe, hobby Singing, flag-true 
+• id=100, fullName JOHN Doe, hobby-Dancing, flag=true//Ans 
+• id=100 fullName JOHN Doe, hobby-Singing, flag-false 
+ 
+13) Given the following configuration class, Choose the correct statements. 
+       public class ApplicationConfig { 
+            private DataSource dataSource;  
+           @Autowired 
+        public ApplicationConfig(DataSource datasource) { 
+       this.dataSource = dataSource; 
+} 
+@Bean (name="clientRepository") 
+ClientRepository jpaClientRepository() { 
+return new JpaClientRepository(); 
+   } 
+} 
+ 
+▪ @Configuration annotation is missing//Ans 
+ 
+▪ @Bean scope is prototype 
+ 
+▪ @Bean name is ambiguous 
+ 
+▪ Default or no-arg constructor is missing//Ans 
+ 
+ 
+(14) Consider Mobile Service class with two properties mobile Number and model as shown 
+below. 
+package com.spring; 
+public class MobileService{ 
+             private long mobileNumber; 
+             private String model; 
+//default constructor 
+//getter & setters 
+} 
+config.xml: 
+<bean id="mobileService" class="com.spring. MobileService"> 
+<constructor-arg value="1234567891"/> 
+<constructor-arg value="Nokia"/> 
+</bean> 
+The main method: 
+ApplicationContext ac-new Class PathXmlApplicationContext ("config.xml");  
+MobileService m = (MobileService) ac.getBean ("mobileService"); 
+What is the error in the above scenario? 
+• Attribute name is not provided in the constructor-arg tag of bean definition in the 
+configuration file.//Ans 
+• Compilation Error 
+• Use of index/type attribute is mandatory in constructor-arg tag 
+• Use of scope attribute is mandatory in constructor-arg tag. 
+• Parameterized constructor is not added in the POJO class. 
+15) What will be the output for the following place of code? 
+//The Junit files are imported public class TestClass{ 
+@Text  
+public void testingMethod () { 
+String message ="Test" ; 
+assertequals(3, message.Length()); 
+} 
+} 
+1: Compilation Error 
+2: Runtime Error 
+3: Test Ran with Success 
+4: Test Ran with failure// Ans 
+(16) Considering the following handler method definition: 
+@RequestMapping(values="/showUser", method =RequestMethod.Get) 
+public string show (@RequestParam("userId") Long id, Model model) { 
+... 
+} 
+Which of the following requests are mapped to it? 
+• http://localhost:8080/mvc-basic/showUser?userid=105//Ans 
+• http://localhost:8080/mvc-basic/showUser?id=105 
+• http://localhost:8080/mvc-basic/User?id=105 
+• http://localhost:8080/mvc-basic/showUser?userid=2c 
+17) Assume that we have two entity classes created for validating the Citizen's voter details. As 
+per the rules, a citizen is supposed to have only one voter identity with him. Which among the 
+following mappings are true with respect to One to One Mapping? 
+O (A) 
+@Entity @Table (name "Citizen") 
+public class Citizen 
+{ 
+@Id private int citizenId; 
+private String citizenName;  
+@OneToOne (cascade CascadeType.ALL)  
+@JoinColumn (name="citizenVoterId") 
+private Voter citizenVoter; 
+//getter and setters  
+} 
+@Entity @Table(name = "Voter") 
+public class Voter 
+{ 
+@Id private int citizenVoterId; 
+private String location;  
+//getters and setters 
+} 
+O (B) 
+@Entity @Table (name "Citizen")  
+public class Citizen 
+{ 
+@Id private int citizen Id; 
+private String citizenName; 
+@OneToOne (cascade CascadeType. ALL) 
+private Voter citizenVoter;  
+//getters and setters 
+} 
+@Entity @Table (name = "Voter") 
+Public class voter 
+{ 
+@Id@JoinColumn(name=”citizenvoterId”) 
+private int citizenVoterId; 
+private String location; 
+//getters and setter 
+} 
+O (C) 
+@Entity @Table (name "Citizen") 
+public class Citizen 
+{ 
+@Id private int citizenId; 
+private String citizenName; 
+@OneOne(cascade = CascadeType. ALL)  
+@JoinedColumn (name="citizenVoterId") 
+private Voter citizenVoter; 
+//getters and setters 
+} 
+@Entity @Table(name = "Voter") 
+Public class voter 
+{ 
+@Id private int citizenVoterId; 
+private String location; 
+//getters and setters 
+} 
+O (D)//Ans 
+@Entity @Table (name = "Citizen") 
+public class Citizen 
+{ 
+@Id private int citizen Id; 
+private String citizenName; 
+@OneToOne (cascade = CascadeType.ALL) 
+@JoinColumn (name="citizenVoterId", unique = true) 
+private Voter citizenVoter; 
+//getters and setters 
+} 
+@Entity @Table (name= "Voter") 
+public class Voter 
+{  
+@Id private int citizenVoterId; 
+private String location; 
+//getters and setters 
+} 
+D(18) High Tech Solutions team uses Spring JDBC for performing database operations to the 
+User entity. The User class is designed as below: 
+public class User{ 
+private Integer userId; 
+                  private String username;  
+                  private String userUnit; 
+} 
+The team needs to retrieve all the user records. Assume that the jdbcTemplate is an instance of 
+JdbcTemplate object. 
+Which among the following Spring JDBC template code is a valid option to fetch the records? 
+O (A) 
+public List<User> getUser(){ 
+                       String sql = "select userId, userName userUnit from User"; 
+return jdbcTemplate.query (sql, new RowMapper User >() { 
+public User mapRow (ResultSet ra, int rowNum) throws SQLException { 
+User user = new User();  
+//values fetched from rs and set to the User object 
+return user; 
+   } 
+ }); 
+} 
+O (B) 
+public List<user> getAll() { 
+    String sql = "select userId, username, userUnit from User “; 
+    return jdbc Template.queryForobject(sql, new RowMapper< User>(){ 
+           public User mapRow (ResultSet rs, int rowNum) 
+                    throws SQLException{ 
+           User user =new User (); 
+          //values fetched from rs and set the User object 
+         return user; 
+     } 
+ }); 
+} 
+O (C) 
+public List<User> getAll() { 
+               String sql = "select userId, user Name, userUnit from User " ; 
+return jdbcTemplate.query(sql, User.class); 
+} 
+O (D) 
+public List<User> getAll() { 
+                            String sql = "select u.userId, u.userName, u.userUnit from User u"; 
+                            return jdbcTemplate.executeQuery (sql, User.class); 
+} 
+O (E)//ans 
+public List<User> getAll() { 
+            String sql = "select userId, userName, userUnit from User "; 
+             return jdbcTemplate.query (sql, new RowMapper User > () { 
+                   public User mapRow (ResultSet rs, int rowNum) 
+                        throws SQLException {  
+                   User user = new User (); 
+//values fetched from rs and set to the User object 
+return user; 
+         } 
+  }); 
+} 
+ 
+ 
+ 
+ 
+(19): 
+Consider the following Spring bean and configuration class: 
+ 
+package com.test.service; 
+public class BikeServiceImpl ({ 
+           public BikeServiceImpl() { 
+           System.out.println("Registration in progress..."); 
+        } 
+         public void showStatus () { 
+              System.out.println("Registered"); 
+      } 
+} 
+package com.test.configuration;  
+@Configuration 
+public class SpringConfig { 
+       @Bean 
+        public BikeServiceImpl myRegistration () { 
+           return new BikeServiceImpl(); 
+       } 
+  } 
+ 
+What is the output when the following code is executed? 
+ 
+package com.test; 
+public class Tester{ 
+public static void main(String[] args) { 
+AbstractApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConfig.class); 
+BikeServiceImpl bikeService = (BikeServiceImpl) ctx.getBean("myregistration"); 
+bikeService.showStatus(); 
+ctx.close(); 
+   } 
+} 
+A.Registration in progress... Registered//Ans 
+B.Registered 
+C.Registered Registration in progress 
+D.The code will throw RuntimeException exception      
+20) Assume you have a table in your database called Car which maps to a Car class in your Java 
+application. There is a member variable in your class called "make" representing the 
+brand/manufacturer of a car. There is also a "type" variable conveying whether the car is a 
+sedan, SUV, hatchback etc. You have also set up a CrudRepository for the Car entity Let's say you 
+wish to perform a search such as "give me all cars of brand myBrand of type hatchback. Which 
+of these is a method which you can set up in the CrudRepository to enable such a search? 
+O(A) 
+List<Car> findByMakePlusType (String make, String type); 
+(B) 
+List<Car> findByMake (String make); 
+(C)//Ans 
+List<Car> findByMakeAndType(String make, String type); 
+(D) 
+Car findByMakeAndType(); 
+(21): Assume that the @Transactional annotation support is enabled appropiately with Spring 
+configuration. 
+What is the behavior of the following code sample? 
+public class EmployesServiceImpl { ---------------------- 
+@Transactional 
+public void updateEmployee (int empId, String baseLocation) 
+{ 
+Employee employee =getEmployee (employee.getEmpId()); --------------------- 
+} 
+@Transactional (propagation=Propagation.REQUIRES_NEW) 
+public Employee getEmployee (int empId) {               
+// IMPLEMENTATION 
+} 
+} 
+ 
+• The getEmployee() method executes code in a new transaction//Ans 
+ 
+• The getEmployee() method executes in the transaction scope of updateEmployee() 
+method 
+ 
+• Spring does not allow overriding the default values of @Transactional annotation 
+ 
+• The getEmployee() method executes in non-transaction scope 
+ 
+(22):- 
+Please refer below 
+Consider the class given below 
+     package com.test.eervice; 
+    public class BookService { 
+              private List<BookRepository> bookRepositories; 
+                //constructors 
+               //setter and getter methods 
+} 
+Choose the Correct statements. 
+ 
+▪ (A)//ANS 
+ 
+Assume bookRepositoryl and bookRepository2 bean definitions are available 
+<bean id="bookService" class="com.test.service.BookService"> 
+<property name="bookRepositories"> 
+<list> 
+     <ref bean= "bookRepository1" /> 
+     <ref bean= "bookRepository2" /> 
+  </list> 
+</property> 
+</bean> 
+ 
+▪ (B) 
+ 
+Assume BookRepository is present in com.test.repository package 
+<bean id="bookService" class="com.test.service BookServices”> 
+<property name="bookRepositories"> 
+<list> 
+ <bean id="bookRepository!" property "con.test.repository BookRepository/> 
+ <bean id="bookRepository2 property = com.test.repository. BookRepository/> 
+</list> 
+</property> 
+</bean> 
+▪ (C) 
+Spring provides support for the collection types such as List, Set but not Map. 
+▪ (D) 
+Spring does not support collection in the bean definition.. 
+▪ (E)//Ans 
+Assume BookRepository is present in com. test.repository package 
+<bean id="bookService" class="com.test.service.BookService"> 
+<property name="bookRepositories"> 
+<list> 
+<bean id="bookRepository1" class="com.test.repository. BookRepository/> 
+<bean id="bookRepository2" class="com.test.repository.BookRepository/> 
+</list> 
+</property> 
+</bean> 
+▪ (F)//Ans 
+Spring provides support for all the collection types such as List, Set, Map 
+ 
+D(23: 
+A Spring application includes the following class definitions: 
+ 
+package com.test.services  
+public class EmployeeService{ 
+               private int empino; 
+              private String name; 
+             @Autowired 
+             private Address Service office; 
+           //getter and natter thods for all properties) 
+package com.test.service;  
+public class Address Service { 
+       String city: 
+       String street; 
+//getter and setter methods for all properties) 
+config.xml: 
+<context:annotation-config /> 
+<bean id="emp" class="com.test.service.EmployeeService"> 
+         <property name="empno" value="1001"/> 
+          <property name="ename" value="John"/> 
+</bean> 
+Main method: 
+ApplicationContext context = new Class PathXml ApplicationContext("config.xml"); 
+Employee Service emp = (Employee Service) context.getBean ("emp"); 
+What will happen if the main method of this application is executed? 
+• Employee Service bean will be created with a null AddressService reference//ANs 
+• Employee Service bean will be created which references an AddressService object with 
+the value of city and street as null 
+• A Runtime Exception will be thrown 
+• CompileTime Error as @Autowired cannot be applied on AddressService attribute 
+24:single answer 
+The TechData core team works on a project based on Spring Boot application development with 
+JPA integration for ORM support. The team uses a class called DataUserDACImpl to define the 
+EntityManager instance, this class implements the DataUserDAO interface. The specification 
+mentions that the Entity Manager created should be maintained by the container and there 
+should not be any developer's side efforts to manage the Entity Manager. Help the team identify 
+which among the following can be a valid option to achieve this? 
+O (A)//Ans 
+public class DataUserDAOImpl implements DataUserDAO 
+{ 
+@PersistenceContext 
+private EntityManager entityManager; 
+//Defining required methods to perform database operations 
+} 
+(B) 
+public class DataUserDAOImpl implements DataUserDAO 
+{ 
+@PersistenceUnit private EntityManager entityManager; 
+//Defining required methods to perform database operations 
+} 
+(C) 
+public class DataUserDMOImpl 
+{ 
+@PersistenceContext 
+private EntityManager entityManager; 
+//Defining required methods to perform database operations 
+(D) 
+public class DatauserDMOImpl 
+{ 
+@Persistenceunit 
+private EntityManager entityManager; 
+//Defining required methods to perform database operations 
+} 
+25: 
+Hale Tech team uses a Spring-based application to maintain their user details. The team has 
+implemented a backend using the CRUDRepository of Spring Data commons. The HaleUser class 
+is an entity class that is mapped to the table in the relational schema. The class is designed as 
+shown below 
+@Entity 
+public class HaleUser{ 
+@Id 
+private Integer haleUserId; 
+private String haleUserName;  
+//getters and setters 
+} 
+Help the team identify which among the following are valid methods supported by Spring? 
+▪ findAll()//ANS 
+▪ findById(Integer haleUserld)//Ans 
+▪ save(Integer haleUserld) 
+▪ deleteById(Integer haleUserld)//Ans 
+(26).  
+1.package com.mphasis; 
+2. import javax.persistence.Entity; 
+3. import javax.persistence.GeneratedValue; 
+4. import javax.persistence.GenerationType; 
+5. import javax.persistence.Id; 
+6. // code goes here 
+7. public class Customer { 
+8. // code goes here 
+9.// code goes here 
+10. private Long id; 
+11. private String firstName; 
+12. private String lastName; 
+// Setters and Getters 
+} 
+Which of the following lines of code when added to Lines 6, 8, and 9 will enable mapping of the 
+Java class with the database using JPA where the id field is managed by JPA during generation of 
+records? 
+• (A) 
+6. @Table 
+8. @Id 
+9. @GeneratedValue (strategy-GenerationType,AUTO) 
+• (B)//Ans 
+6. @Entity 
+8. @Id 
+9.@GeneratedValue (strategy-GenerationType, AUTO) 
+• (C) 
+6. @Table 
+8. @Identity 
+9. @Generated Value (strategy-GenerationType ,AUTO) 
+• (D) 
+6. @Table 
+8. @Id 
+9. @AutoGenerated (strategy-GenerationType,AUTO) 
+27: 
+For the code given below, choose the equivalent option 
+package com. foo; 
+@Configuration 
+public class AcmaConfig{ 
+@Bean 
+public AcmeService emaService() { 
+return new AmaServiceImpl() ; 
+} 
+} 
+O (A) 
+<Beans> 
+<bean id="ameConfig" class"com. Acmeservice"/> </beans> 
+(B) 
+<beans> 
+<bean id=" acmeservice" class"com .AcmeserviceImp1"/> 
+</beans> 
+(C) 
+<beans> 
+<bean id=acmeConfig" class="AcmeServiceImpl"/> 
+</beans> 
+(D) 
+<beans> 
+<bean id= acmeConfig" className"com. foo AcmeServiceImpl"/>  
+</bean> 
+(E)//Ans 
+<beans> 
+<bean I'd=acmeservice class"com foo .AcmeserviceImpl"/> 
+</beans> 
+28:  
+What is true about the following @Entity association between House and Window?  
+@Entity  
+public class Window {  
+@ld  
+private int winNo;  
+@ManyToOne  
+private House aHouse;  
+@Entity  
+public class House {  
+@ld  
+private int houseNo;  
+@OneToMany(mappedBy="aHouse")  
+private List windows;  
+}  
+▪ It's One ToMany unidirectional association  
+▪ It's One ToMany bidirectional association //Ans 
+▪ The association owner is the House class 
+▪ The association owner is the Window class //Ans 
+29: 
+Consider the GreetingService class given below:  
+package com.test.service;  
+public class GreetingService {  
+private String greeting;  
+public String getGreeting() {  
+return greeting;  
+}  
+public void setGreeting(String greeting) {  
+this greeting = greeting;  
+}  
+A Spring configuration file(config ml) defining bean of the GreetingService class is show below  
+<bean id = "greetingService" class = "com test service. Greeting Service" /> 
+The main method of the application includes the following statements:  
+ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");  
+Greeting Service greetingService = (Greeting Service) context. getBean("greeting Service");  
+greetingService.setGreeting("Hi, Welcome to Spring Course!!");  
+System.out. printIn(greeting Service. getGreeting());  
+WebCam  
+What will happen when we execute the above main method?  
+Options  
+• Displays the greeting message "Hi, Welcome to Spring Course!!" //Answer  
+• Displays null as the greeting property is not initialized  
+• POJO class setter method cannot be invoked on the bean  
+• RunTime Exception  
+30: 
+Consider the following code snippet. Which of the following option gives the order in which the 
+methods in the given OutputTest class is executed?  
+import org.junit.*;  
+import static org junit.Assert.*;  
+import java.io. *.  
+public class OutputTest {  
+private File output;  
+@Before  
+public void createOutputFile() {  
+output = new File(...);  
+}  
+@After  
+public void deleteOutputFile() {  
+output.delete();  
+}  
+@Test  
+public void testSomethingWithFile() {  
+Options  
+• createOutputFile() deleteOutputFile() testSomethingWithFile()  
+• createOutputFile() testSomethingWithFile() deleteOutputFile()//Answer  
+• testSomethingWithFile() createOutputFile() deleteOutputFile()  
+• deleteOutputFile() createOutputFile() testSomething WithFile()  
+31. Observe the following controller. (Assume necessary Imports are done.) 
+@RestController 
+ @RequestMapping("/plans")  
+public class PlanController 
+{ 
+public List<PlanDTO getPlans (@RequestParam("localRate") int localmate, 
+@RequestParam("nationalRats") int nationalRate){ 
+ 
+//code to search for Plans based on local and national rates and return the same 
+} 
+Choose the right way of applying method mapping annotation for this controller method from 
+the following. 
+O (A) 
+@GetMapping("/{localRate)/(nationalRate)")//Ans 
+O (B) 
+@GetMapping (produces="application/json", consumes="application/json") 
+O (C) 
+@GetMapping 
+O (D) 
+@GetMapping("/(localRate)") 
+ 
+32: 
+Analyze the following code snippet: 
+ 
+@Service 
+@Transactional(readonly= true, propagation Propagation.REQUIRED) 
+public class UserServiceImpl implements UserService { 
+                       @Transactional (propagation = Propagation.REQUIRES_NEW) 
+                       @Override 
+public User findById(Long id) {  
+return userRepo.findById(id); 
+    } 
+} 
+What can be said about the findById() method? 
+ 
+• The method is executed in an existing transaction 
+ 
+• When a method is executed, an exception will be thrown because the transaction is not 
+declared as readOnly 
+ 
+• The method is executed in a new transaction//Ans 
+ 
+• The method is executed in a new transaction by terminating the outer transaction 
+ 
+D(33): 
+Given the below code. (Assume necessary imports are done.) 
+@RestController 
+@RequestMapping("/friendsfamily") 
+public class FriendsFamilyController{ 
+@PostMapping (produces="application/json",consumes="application/json") 
+public Friends FamilyDTO addFriendsFamily(@RequestBody FriendsFamilyDTO 
+friendsFamilyDto) 
+{ 
+//code to add friends family and return the same back 
+} 
+Identify the things that are optional from the following. 
+a. @RequestBody 
+b. produces="application/json" 
+c. consumes"application/json" 
+• Only a 
+• Only b and c//Ans 
+• Only a and c 
+• A,b,c 
+34: 
+@Rest Controller 
+public class ApiController { 
+// code goes here 
+@RequestMapping("/") 
+public String index() { 
+loggar.debug("A DEBUG Message"); 
+// code goes hare 
+return "Display set-up for logging configuration."; 
+} 
+} 
+Which of the following line of code must be added at Line 3and Line 7 to log the message 
+(A)//ANS 
+Logger logger LoggerFactory.getLogger(ApiController.class); logger.info("An INFO Message"); 
+(B) 
+Logger logger LoggerFactory.getLogger: 
+logger.info("An INFO Message"); 
+○ (C) 
+Logger logger = new LoggerFactory (ApiController.class); 
+logger.info("An INFO Message"); 
+(D) 
+Logger logger =LoggerFactory.getLogger (SpringBootApplication.class); 
+logger.info("An INFO Message"); 
+(35): 
+In Spring MVC which of the following are valid as per the use of @PathVariable annotation? 
+▪ (A) 
+@requestMapping(value="/users/(userId)") 
+public String viewUser(@PathVariable("users") String user, Model m) 
+▪ (B) 
+@RequestMapping(value="/users/(userId)/addresses") 
+public String viewUserAddress (@PathVariable String userId, @PathVariable String addressld, 
+Modal  m) 
+▪ (C)//ANs 
+@RequestMapping(value="/users/(userId)") 
+public String viewUser(@PathVariable("userId") String personnelId, Model m) 
+▪ (D)//Ans 
+@RequestMapping(value="/users/(userId)") 
+public String viewUser(@PathVariable String userId, Model m) 
+▪ (E)//ANS 
+@RequestMapping(value="/users/(userId)/addresses/(addressId)") 
+public String viewUserAddress(@PathVariable String userId, @PathVariable String addressId, 
+Model m) 
+ 
+ 
+36: 
+Given the code below: 
+@Entity 
+public class Employee {  
+                    @ManyToone 
+                   @JoinColumn (name="dept id") 
+                   private Department dept; 
+} 
+how do I retrieve employees who belong to particular department? 
+O (A) 
+"select from Employees e where e.dept=?1" 
+O (B) 
+"select e from Employees e where e.dept_ id=?1" 
+O (C)//Ans 
+"select e from Employees e where e.dept. id= ?1" 
+(D) 
+“select e from Employees e where e. deptartment_id=?1” 
+ 
+D(37): 
+Given the below code 
+public interface CustomerRepository extends Jpallepository<user, Long> 
+{ 
+      // code goes hare  
+      Collection<User> FindAllActiveUsers(); // complete this line 
+} 
+Which of the following options will allow users to get a list of all active users and sort them by 
+name?  
+use following query to get the list of active users with JPA. 
+"SELECT * FROM USERS u WHERE u.status =1” 
+• (A) 
+@Query (value ="SELECT* FROM USERS WHERE u.status = 1", nativeQuery =true) 
+Collection<User> findAllActiveUsers (Sort. by (Sort. Direction.ASC, "name")); 
+• (B) 
+@nativeQuery(value ="SELECT* FROM USERS WHERE u.status=1", nativeQuery=true) 
+Collection<User> findAllActiveUsers (Sort.by(Sort. Direction.ASC, "name"));  
+ 
+ 
+• (C) 
+@Query (value="SELECT *FROM USERS u WHERE u.status =1", nativeQuery=true) 
+Collection<User> findAllActiveUsers().sort("name");  
+• (D)//Ans 
+@Query (value = "SELECT *FROM USERS u WHERE u.status =1") 
+ Collection<User> findAllActiveUsers (Sort.by (Sort. Direction. ASC)); 
+ 
+38): 
+Please refer below 
+TechDataStore team uses Spring JDBC to perform database operations. The TechDataUser class 
+is designed as shown  
+public class TechDataUser{ 
+          private Integer techDataUserId; 
+          private String techDataUserName; 
+           private String techDataUserDept; 
+} 
+The team needs to delete a TechDataUser record based on the techDataUserId. 
+Assume that the jdbcTemplate is an instance of a JdbcTemplate object. Which among the 
+following Spring JDBC Template code is avalid option to delete the record? 
+O(A) 
+        public int delete(int techDataUserid) { 
+return jdbcTemplate.remove("delete from TechDataUser where techDataUserId= ?",               
+techDataUserid); 
+} 
+(B)//Ans 
+public int delete(int techDataUserid) { 
+return jdbcTemplate.update("delete from TechDataUser where techDataUserId= ?", 
+techDataUserid); 
+} 
+(c) 
+public int delete (int techDataUserid) { 
+return jdbcTemplate.delete("delete from TechDataUser where techDataUserId= ?", 
+techDataUserid); 
+} 
+O(D) 
+public int delete (int techDataUserid) { 
+return jdbcTemplate.query("delete from TechDataUser where techDataUserId= ?", 
+techDataUserid); 
+} 
+(39: 
+//import statements  
+@Component  
+@Configuration  
+@SpringBootApplication (scanBasePackages ="com.mphasis.irs")  
+public class IrsApplication  
+{  
+public static void main(String[] args){  
+ApplicationContext context =SpringApplication.run(Irsapplication.class, args);  
+Employeeservice employeeService =(EmployeeService)context.getBean 
+("employeeservice");  
+}  
+Select the correct options.  
+▪ Component annotation is not required //ans 
+▪ Configuration annotation is not required //ans 
+▪ ScanBasePackages atribute of @SpringBootApplication is not required as 
+there are no other base packages other than “com.mphasis.irs”  
+▪ Explicit casting to Employee Service is not required as it is taken care by 
+Spring Boot automatically//Ans 
+(40): 
+Which of the following is a valid xml file to register HelloWorld class with 
+property message as a bean in xml?  
+(A) 
+<?xml version "1.0" encoding "UTF-8"?>  
+<beans xmlns="htp://www.springframework.org/schema/beans"  
+xmlns:xsi="htp://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://www.springframework.org/schema/beans  
+htp://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+bean id= "helloWorld" type="com.example. HelloWorld"> 
+<property name ="message" value="Hello World!"/>  
+</bean>  
+</beans> 
+(B) 
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="htp://www.springframework.org/schema/beans"  
+xmlns:xsi="htp://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="htp://www.springframework.org/schema/beans  
+htp://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+<bean name "helloWorld" class="com.example.HelloWorld">  
+<property name="message" value="Hello World!" />  
+</bean>  
+beans> 
+(C)//Ans 
+<?xml version "1.0" encoding="UTF-8"?>  
+<beans xmlns="htp://www.springframework.org/schema/beans"  
+xmlns:xsi="htp://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="htp://www.springframework.org/schema/beans  
+htp://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+<bean id "helloWorld" class="com.example.HelloWorld">  
+<property name="message" value="Hello World!"/>  
+</bean>  
+</beans> 
+(D) 
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="htp://www.springframework.org/schema/beans"  
+xmlns:xsi="htp://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="htp://www.springframework.org/schema/beans  
+htp://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+bean name "helloWorld" type = "com.example. HelloWorld">  
+<property name="message" value= "Hello World!" />  
+</bean>  
+</beans> 
+41: 
+Assume that the @Transactional annotation support is enabled appropriately 
+with Spring configuration  
+What is the behaviour of the following code sample?  
+public class EmployeeServiceImpl{  --------------  
+@Transac􀆟onal  
+public void updateEmployee(int empId,String baseLoca􀆟on){  
+Employee employee=getEmployee(employee.getEmpId());  -----------------  
+}  
+@Transactional(propagation=Propagation.REQUIRES_NEW)  
+public Employee getEmployee(int empId){  
+//IMPLEMENTATION  
+}  
+} 
+• The getEmployee()method executes code in a new transaction. //Ans 
+• The getEmployee()method executes code in a the transaction scope of 
+updateEmployee() method.  
+• Spring does not allow overriding the default values of @Transactional 
+annotation.  
+• The getEmployee()method executes code in a non transaction scope. 
+•  
+42: 
+Review the following schema:  
+User Table  
+userId:primary key  
+joinedCourses:Many-to-many relationship  
+Courses Table  
+courseId: primary key  
+associatedUsers:Many-to-many relationship  
+write the code for mapping this relationship  
+user.java //CODE FOR -A,D 
+@Entity  
+public class User {  
+@Id  
+private int userId;  
+@ManyToMany  
+@JoinTable(  
+name="User_Courses",  
+joinColumns=@JoinColumn(name="userId"),  
+inverseJoinColumns=@JoinColumn(name="courseId")  
+)  
+private List<Course> joinedCourses;  
+}  ---- 
+course.java  
+@Entity  
+public class Course {  
+@Id  
+private int courseId;  
+@ManyToMany(mappedBy="joinedCourses")  
+private List<User> associatedUsers;  
+43: 
+FoxTravels maintains two classes DrivingLicense and Ci􀆟zen.They have one to one 
+relationship between them.Assume that these two classes are annoted correctly 
+with CascadeType.ALL and there are no records currently available in the 
+database  
+What will be the output of the code given below?  
+DrivingLicense d1=new DrivingLicense();  
+d1.setLicenseNumber(101);  
+Calendar issueDate=Calendar.getInstance();  
+issueDate.set(12,12,2005);  
+Calendar expiry=Calendar.getInstance();  
+expiry.set(12,12,2005);  
+d1.setLicenseIssued(issueDate);  
+d1.setLicenseExpiry(expiry);  
+d1.setVechileType("LMV")  
+Citizen citizn=new Citizen();  
+citzn.setcustId(5001);  
+citzn.setcustName("Ram");  
+citzn.setDrivingLicense(d1);  
+session.getTransaction().begin();  
+session.persist(citzn);  
+session.getTransactaion().commit(); 
+• One record will be inserted in Driving License Table and one record will be 
+inserted in Citizen Table //Ans 
+44:Assume you have a table in your database called Car which maps to a Car class 
+in your Java application. There is a member variable in your class called "make" 
+representing the brand/manufacturer of a car You have also set up a 
+CrudRepository for the Car entity Which represents a method in the 
+CrudRepository which can be used to retrieve all Car instances of a specific make? 
+(A) 
+List<Car> select WhereMake(String make): 
+(B) 
+List<Car> findByMake(String make)//Ans 
+(C) 
+List<Car> findById(String make): 
+(D) 
+List<Car> selectFromCarWhereMake(String nake): 
+46: 
+Consider a class "MyDataApplicant" with the properties given below 
+public class MyDataApplicant 
+//Id field 
+private String applicantId: 
+private String applicantifane: 
+//getters and setters 
+Assumptions: 
+-MyDataApplicant table exists in the database with the above properties 
+jdbcTemplate is an instance of JdbcTemplats class 
+Which is a proper Spring JdbcTemplate code from the options given below to fetch 
+the total number of applicants who have submitted their requests to the 
+organization? 
+O (A) 
+String sql = "SELECT count(*) FROM MyDataApplicant int count 
+jdbcTemplate.queryForObject (sql, String class): 
+(B) 
+String sql "SELECT count(*) FROM MyDataApplicant"; int count 
+jdbcTemplate.queryforobject (sql); 
+(C) 
+String sql "SELECT count(*) FROM MyDataApplicant; int count jdbcTemplate 
+quaryForObject (sql, Integer class)://Ans 
+(D) 
+String sa "SELECT FROM MyDataApplicant int count jdbcTemplate queryforobject 
+(sql, Integer class) 
+46: 
+Assume you have a table in your database called Car which maps to a Car class in 
+your Java application. There is a member variable in your class called "bhp" 
+representing the maximum horsepower generated by the car's engine. Which 
+represents a method signature in a Crud Repository which will return all cars 
+whose engines can generate more than a specified horsepower, and ordered in 
+the descending order of BHP? 
+O (A) 
+List<Car> findByBhpGreater ThanSortByBhpDesc (int horsepower); 
+O (B) 
+List<Car> findByBhpGreater ThanOrderByBhp (int horsepower); 
+(C) 
+List<Car> findByBhpGreater Than (int horsepower): 
+(D) 
+List<Car> findByBhpGreater erThanOrderByBhpDesc (int horsepower)://Ans 
+45: 
+What Java Spring Rest command would retrieve data from a Restful API using 
+RestTemplate? An object called resttemplate has been created from the Rest class 
+O (A) 
+resttemplate.retrieveRest ("http://restwebsite", String.class, quota) 
+(B) 
+resttemplate.retrieveObject (String.class, "http://restwebsite") 
+O (C) 
+resttemplate.getRestObject (String.class, "http://restwebsite") 
+(D)  
+resttemplate.getForObject ("http://restwebsite", String.class)//Ans 
+46: 
+Consider the code given below: 
+public interface MusicianDAO{ 
+//CRUD methods 
+} 
+public class MusicianDAOImpl extends MusicianDAO { 
+//Implements CRUD operations using Spring JdbcTemplate 
+Which among the following is a valid annotation to be used at the class level to 
+translate checked exceptions to unchecked exceptions by eliminating the need for 
+an explicit try-catch block in the repository code? 
+• @Component 
+• @Repository//Ans 
+• O@ExceptionHandler(value = Exception.class) 
+• @Configuration 
+47: 
+Consider the following classes defined in a Spring application: 
+package com.demo.company; 
+public class Address 
+private String city; 
+private String pincode; 
+public Address () 
+//getter and setter methods) 
+package com.demo.company; 
+public class Employee { 
+private Address address; 
+//getter and setter methods) 
+Config.xml: 
+<bean id="address" class="com.demo.company.Address"> 
+<property name="city" value="Los Angles"/> <property name="pincode" 
+value="91167"/> 
+</bean> 
+<bean id="employee" class="com.demo.company. Employee" 
+autowire="byName" /> 
+Main class: 
+ApplicationContext ac= new ClassPathXmlApplicationContext("config.xml"); 
+Employee el = (Employee) ac.getBean ("employee"); 
+System.out.println("City: "+el.getAddress().getCity ()+" Street: 
+"tel.getAddress().getPincode()); 
+What is the output of the above code execution? 
+• Throws NullPointerException 
+• Display city as "Los Angles" and pincode as null 
+• Display city and pincode as null 
+• No bean named 'address' available 
+• Display city as "Los Angles" and pincode as "91167" 
+48: 
+Assume that a LibraryRepository must be created for the given Library class. 
+Which of the following is the correct way of coding? (Assume all the import 
+statements are provided correctly) 
+@Entity 
+public class Library { 
+@Id 
+private String libraryId; 
+private String libraryName: 
+} 
+(A) 
+public interface LibraryRepository extends JpaRepository<Library, Integer> { 
+} 
+(B)//ANS 
+public interface LibraryRepository extends JpaRepository< Library, String> { 
+} 
+(C) 
+public interface LibraryRepository extends JpaRepository<String> { 
+} 
+(D) 
+public interface LibraryRepository extends JpaRepository<Library> { 
+} 
+50: 
+An application EsayRider is added with the Employ Persistence module recently 
+that works for persisting employee details. Some of the code snippets Trom the 
+newly added module are given below for your observation 
+//import statements 
+@SpringBootApplication (scanBasePackages "com.mphasis.irs"} 
+public class IrsApplication 
+{ 
+public static void main(String[] args) throws Exception 
+{ 
+ApplicationContext context = SpringApplication.run(IrsApplication.class, args): 
+Employee Service employeeService = (Employee Service) context.getBean 
+("employeeService"); System.out.println(employeeService.persistEmployee()); 
+} 
+} 
+//import statements 
+public class Employee Service{ 
+public String persistEmployee() { 
+//call to employee repository is made  
+return "employee persisted successfully"; 
+} 
+} 
+As you observe, NoSuchBeanDefinitionException will be thrown at run-time 
+because of Employee Service class. 
+Identify the option that shall make the code work. 
+• Annotate Employee Service class either with @Component or @Service 
+annotation//Ans 
+• Annotate Employee Service class with @Configuration annotation 
+• Annotate Employee Service class with @ComponentScan annotation 
+• Annotate Employee Service class with @ComponentScan annotation 
+@Bean 
+Which of the following is not a Kibana visualization option for time-based data?  
+Option b 
+Timelion 
+Vega 
+Line chart 
+Geo heatmap 
+Choose the correct Syntax to disable the test using the TestNG @Test enable parame 
+Option c 
+@Tyst(enable=false) 
+@Test(enable=false} 
+@Test(enabled=false) 
+@Test(enabled=false} ----------helps to gain powerful insights about data. 
+Elasticsearch 
+Kibana 
+Logstash 
+Beats 
+Which of the following are features of ELK stack? 
+Corporate branding 
+Visualization 
+Querying 
+Monetization 
+Select the benefits of EC2. 
+Elastic ans 
+Expensive 
+Reliable ans 
+Not flexible 
+Secure ans 
+un-controlled 
+AWS has the concept of a centers. which is a physical location around the world where we 
+Region 
+Availability Zone 
+Edge Location 
+AWS Local Zones 
+Which of the following is not an annotation used in TestNG? 
+@BeforeSuite 
+@BeforeClass 
+O@After Test 
+@AfterException  ans 
+Which of the following command is used to switch between frames? 
+driver.switch To().frame() 
+Which Docker command shows the containers in a Swarm that are running on Swarm nodes? 
+docker service ps 
+By default________ of types is enabled in Elasticsearch. 
+dynamic mapping 
+which of the following are used to select a drop down? 
+By value 
+By Visible Text 
+By Index 
+You plan on using the CLI to deploy a Windows EC2 instance. How can you specify that you wal 
+Server 2022 instance? 
+Specify a Windows Server 2022 AMI id 
+The default Elasticsearch log level is 
+info 
+An_______is where end users access services located at AWS 
+Edge location 
+___________is a tool for defining & running multi-container Docker applications 
+Docker Compose 
+What will happen if you use the following code in your script? 
+driver manage().timeouts().setScriptTimeout(-10,ECOND) 
+Sets the amount of me to wait for an asynchronous script to finish execution before throwing an 
+Which wait has scope through out the driver instance? 
+Implicit wait 
+Point out the correct statements. 
+B) SimpleDB interoperates with both Amazon EC2 and Amazon S3 
+d) EC3 is not an Analytics as a Service provider 
+Which of the following commands can we use to set up a private Docker Hub repository? 
+docker run -d-p 5000 5000 --restart always -name registry registry:2 
+________handles the current window that uniquely identifies it within this driver instance 
+driver.getWindowHandle(); 
+What is the purpose of Kibana Beats? 
+To collect and ship data to Elasticsearch 
+Choose the ways to disable the test cases in TestNG. 
+B) Disable the test case in a @Test annotation 
+D) Disable the test case in the XML file. 
+List some of the features of Kibana. 
+Data discovery 
+Dashboard 
+Ingest data 
+Which of the following visualizations can be created and managed using Kibana? 
+Vertical bar 
+Dashboards 
+Pie charts 
+Which environment variables need to be set in the docker-compose yani file? 
+A) MYSQL ROOT_PASSWORD 
+d) WORDPRESS_DB_USER 
+A_______window is a secondary browser window that appears on top of the main brown 
+pop-up 
+What requirements that must be met in order to successfully install Docker Desktop on a Windows 
+10 Enterpe y 
+c) Hyper-V backend 
+d) WSL 2 feature 
+You need to ensure uploaded files to an S3 bucket are encrypted. What should you do? 
+Enable encryption in the upload properties section 
+Which type of storage service is Amazon S3? 
+O Object 
+Which CLI command is used to deploy an EC2 instance? 
+aws ec2 run-instances 
+Identify the valid commands that we can use to build images from Dock 
+sudo docker build 
+Select some of the benefits associated with containerization. 
+A) With containerization we can create multiples copies on several machines 
+C ) Containerization encapsulates applications 
+d) Containerized applications can be automatically deployed on on-premise servers 
+Which of the following are parameters associated with multithread in testng.xml? 
+c) thread-count 
+d) parallel 
+Which of the following are TestNG annotations? 
+A) @Listeners 
+c) @AfterGroups 
+Which AWS storage class is used for long-term archiving? 
+Glacier 
+Specify some of the methods that we can use to handle keyboard events 
+keyDown 
+sendKeys 
+You need to view the hostnames of Docker Swarm cluster computers. Which command will achhive 
+this ? 
+docker node is 
+Aller applying a Docker Swarm service configuration, you need to run a Linux command in a com 
+wenty the configuration was applied. Which base command should you use? 
+docker container exec 
+Which of the following are the features of Docker Swarm? 
+Cluster management 
+Decentralized design 
+Multi-host networking 
+Which of the following @Test attribute creates dependency in TestNG? 
+dependOnMethods 
+dependsOnGroups 
+dependsOn 
+which Kubernetes feature automatically scales the number of Pods in a deployment, replica set, or 
+based on specific metrics like observed CPU utilization? 
+Horizontal Pod Autoscaling 
+Refer the code below and choose the output of the following code 
+Actions builder = new Actions (driver); 
+Action actions builder.moveToElement (addButton).click().build() actions.perform(): 
+◎ Mouse over on the addButton and click on Element.d 
+Which data type is returned by the DataProvider method in TestNG? 
+D) Object[][] 
+What will be the output for the following code? 
+public static void main(String[] args) { 
+int numl = 0; 
+int num2 = 0; 
+for (int var = 0; var < 5; var++) { 
+if 
+) 
+numl++; 
+) 
+System.out.println(numl + " and " + num2); 
+((++numl> 2) && (++num2 > 2)) ( 
+5 and 2 
+8 and 5 
+6 and 3 
+Answer: 6 and 3 
+Identify the issue in the below code fragment. 
+public class Example 
+public String formatInput (String i) ( if(i.trim().length()==9) (//Line 3 StringBuilder sb = new 
+StringBuilder(); sbsb.insert(0, "+1("); //Line 5 sbsb.insert (6, ")"); //Line 6 absb.insert (10, "-") 
+//Line 7 return sb.toString(): 
+return null; 
+public static void main(String[] args) ( Example obj = new Example(); String i obj 
+formatInput(i); 
+Compilation Fails at Line 3 
+Compilation Falls at Line 6 
+NullPointerException will be thrown if the value of i is null 
+Compilation Fails at Line 7 
+StringIndexOutOfBoundsException will be thrown if the length is 9 
+Answer: CD  
+What will be the output for the following code? 
+class Super ( 
+int num 20 
+public void display() ( 
+System.out.println("super class method"); 
+public class Thialse extends Super int num 
+public ThisUse (int num) ( this. num num 
+public void display () ( System.out.println("display method"); 
+public void Show() ( this display(): display() System.out.println(this.num) 
+System.out.println(num) 
+public static void main(String[] args) { ThisUse o new ThisUse (10) o. Show(); 
+super class method display method 20 20 
+display method display method 10 10 
+Odisplay method display method 20 20 
+súper class method display method 10 10 
+Answer: B 
+What t is the default location where your local repository for Maven is stored? 
+${user.home)/m/repository/ 
+S{user.home}/.m2/repository/ 
+${user.home)/.m/repository/ 
+O&{user.home}/m2/repository/ 
+Answer: B 
+There are two general uses of plugins. The first is build and the second is 
+Oreporting 
+servers 
+dependencies 
+distribution management 
+Answer: A 
+What defines the Agile Scrum approach? 
+System that relies on incremental development 
+System that relies on no development 
+System that relies on ad hoc development 
+System that relies on conditional development 
+Answer: A 
+Given the code fragment: 
+Deque<String> queue = new ArrayDeque<String>(); 
+queue add("Susan"); 
+queue add("Allen"); 
+queue. add("David"); 
+System.out.println(queue.pop()); 
+System.out.println(queue, remove()); 
+System.out.println(queue); 
+What will be the output for the following code? 
+David David [Susan, Allen 
+Susan Susan [Susan, Allen] 
+Susan Allen [David] 
+David Allen [Susan] 
+Susan Allen [Susan David] 
+Answer: C 
+You want to create a new branch called hotfix. Which command achieves this? 
+git branch hotfix 
+git -branch hotfix 
+git --branch-hotfix 
+git branch -hotfix 
+Answer: A 
+Which of the three framework activities are present in the Adaptive Software Development 
+(ASD)? 
+requirements gathering, adaptive cycle planning, iterative development 
+speculation, collaboration, learning 
+analysis, design, coding 
+iterative development, coding, design 
+Answer: B 
+Which command is used to compare the working directory with staging area? 
+git status 
+git add 
+git init 
+git diff 
+Answer:D 
+What will be the output for the following code? 
+public class Employee ( private String name: 
+private int empId: private String city 
+Employee()( 
+this city = "New York"; 
+Employee(String name, int empId) ( this(); 
+this name пале 
+this.empId = empId: 
+public static void main(String[] args) ( Employee employeel new Employee ("John", 101); 
+Employee employee2 = new Employee (); 
+System.out.println(employeel. name+" + employeel.empId+-- + employeel.city): 
+System.out.println(employee2.name employee2.city); + employee2.empId+ 
+John 101 New York John 101 New York 
+John 101 null null O New York 
+John 101 New York nuli 0 New York 
+John 101 null John 101 New 
+Answer: C 
+How should work be allocated to the team in the agile project? 
+Team members should self-select tasks. 
+The project leader should give tasks to individuals to create challenges for them. 
+The biggest tasks should be done by the project leader themselves. 
+Tasks should be randomly allocated using planning poker. 
+Answer: A 
+Given that the current directory is empty, and that the user has read and write permissions, 
+with the following code snippet: 
+11. import java.io.*; 
+12. public class DOS 
+13. public static void main(String[] args) ( 
+14. File dir new File("dir"); 
+15. dir.mkdir(); 
+16. File fl new File(dir, fl.txt"); 
+17. try ( 
+18. fl.createNewFile(); 
+19.) catch (IOException 
+e) (;) 20. File newDir new File("newDir"); 
+21. dir. renameTo (newDir) 
+22.) 
+231 
+Which statement is true? 
+Compilation fails. 
+The file system has a new empty directory named dir. 
+The file system has a new empty directory named newDir. 
+The file system has a directory named dir, containing a fi f1.txt. 
+The file system has a directory named newDir, containing a file f1.txt. 
+Answer: C 
+What will be the output for the following code? 
+class MyGen<T> 
+private T obj: 
+public void add (T obj) ( 
+this.obj = obj: 
+public T get () { return obj: 
+public class TestGen 
+public static void main(String[] args) { MyGen<Float>= new MyGen<Float>(); 
+m. add (7.3); // Line 5 m. add (9); // Line 6 
+System.out.println(m.get()); // Line 7 
++ 16 of 44 
+09 
+16 
+Compilation Error in Line 5,6 
+Answer: C 
+
+phase5 
+1. Which file contains the commands to build a Docker image? 
+dockerfile 
+docker-compose.yml//Answer 
+requirements.txt 
+app.py 
+2. Which of the following are valid beats built by elastic team? 
+• Packetbeat//Answer 
+• Filebeat//Answer 
+• Heartbeat//Answer 
+• Microbeat 
+3. Amazon S3 stores data as objects within resources called 
+• Auto Scaling 
+• EC2 Instances 
+• Buckets//Answer 
+• Amazon RDS 
+4. What are the different types of 
+instances? 
+General purpose//Answer 
+• Compute Optimized//Answer 
+Storage Optimized//Answer 
+Hardware Optimized 
+Software Optimized 
+5. Which file is the main node configuration file for ElasticSearch? 
+• elasticsearch.yml//Answer 
+elasticsearch. config 
+• jvm.options 
+log4j2.properties 
+6. Which WebDriver method should be used to switch the focus to a browser window, a frame, 
+or an alert? 
+O switch To()//Answer 
+O setFocus() 
+O setTo() 
+O applyFocus() 
+7. Which of the following annotation will be invoked before the execution of each test method? 
+• @BeforeMethod//Answer 
+@BeforeClass 
+• @Before 
+• @Before Test 
+8. Which systems can Beats ship data to? 
+• Logstash//Answer 
+Apache 
+Kibana 
+• Elastisearch//Answer 
+9. Which of the following command is used to return all container details? 
+• docker ps 
+• docker containers 
+O docker ps -q 
+O docker ps -a//Answer 
+10. Which of the following are the advantages of AWS? 
+• Flexibility//Answer 
+• Cost-effectiveness//Answer 
+• Scalability//Answer 
+• Portability 
+11. Select the benefits of EC2. 
+• Elastic//Answer 
+• Expensive 
+• Reliable//Answer 
+• Not flexible 
+Secure 
+• uncontrolled//Answer 
+12. Select all the distributions used by AWS CloudFront. 
+• Web//Answer 
+O FTP 
+O RTMP//Answer 
+• SMTP 
+• РОР3 
+13. Which of the following cannot be used for dropdown selection? 
+• By value 
+• By Visible Text 
+• By Index 
+• By attribute//Answer 
+14. Which command is used to show the Docker version information in an easy-to-read layout? 
+• docker version//Answer 
+• docker v 
+• docker details 
+• docker show version 
+15. Which of the following is an edge-storage or content-delivery system that caches data in 
+different physical locations? 
+• Amazon Associates Web Services 
+• Amazon Relational Database Service 
+• Amazon CloudFront 
+• Amazon SimpleDB//Answer 
+16. Which of the following commands is used to get the details of 
+Docker? 
+O docker info//Answer 
+O docker help 
+• docker details 
+O dList 
+17. Some of the features of Kibana that extend the capability of Kibana dashboards. 
+• Export dashboards//Answer 
+• Manage indexes//Answer 
+• Delete visualizations  
+(Not Sure) 
+Being-1,2,3,4 
+Generate PDF reports without using pluginsocker show//Answer 
+18. Which of the following statements are true about Docker 
+containers? 
+C Containers are lightweight//Answer 
+• Fewer resources are used//Answer 
+Booting of containers is very fast//Answer 
+More resources are used 
+19. Which of the following provides API to ship the data from source, configure input options and 
+implement logging? 
+• X-Pack 
+Beats//Answer 
+• Kibana 
+• Logstash 
+20. Choose the testing type that is not supported by 
+Selenium. 
+O Re-testing 
+O Regression Testing 
+• Functional Testing 
+• Volume Testing//Answer 
+21. Which Docker command is used to display detailed information on one or more networks? 
+) docker network metadata 
+) docker network inspect//Answer 
+) docker network details 
+) docker network meta 
+22. The Elasticsearch default communication port is 
+• 9300/tcp//Answer 
+• 3000/ip 
+• 9300/utp 
+• 3000/top 
+23. is the packaging of software code with all it's necessary components like libraries, 
+frameworks, and other dependencies 
+own "container 
+OneN 
+• Containerization//Answer 
+Virtualization 
+© Orchestration 
+• Shipping 
+24. Which of the following method is used to reject the alert depending on the alert type? 
+cancel() 
+• clear() 
+O dismiss()//Answer 
+O reject() 
+25. Which of the following is not an AWS cloud platform service? 
+• Analytics 
+• Networking//Answer 
+• Mobile Servicos 
+• Internet of Things 
+26. Which of the following options are correct with respect to creating Docker 
+containers? 
+I can build my own image and use it for creating a Docker container.//Answer     
+I can pull the image from Docker hub and then create a Docker Container.//Answer 
+I can create a Docker container without Docker image. 
+• I can create more than one container using same Docker Image//Answer 
+27. Which of the following are used to select a drop down? 
+By value.//Answer 
+By Visible Text.//Answer 
+By Index.//Answer 
+_ By attribute 
+28. Amazon S3 is which type of storage service? 
+• Block 
+• Object//Answer 
+• Simple 
+• Secure 
+29. Where does the Docker daemon store the Docker images? 
+• Docker Client 
+O Docker Host 
+O Docker Registry//Answer 
+• Docker Hub 
+30. Which of the following visualizations can be created and managed using Kibana? 
+• Split pane 
+[ Vertical bar//Answer 
+[ Dashboards//Answer 
+( Pie charts//Answer 
+31. Which of the following are features of ELK stack? 
+• Corporate branding 
+• Visualization//Answer 
+• Querying//Answer 
+• Monetization 
+32. Which of the below are valid commands to refresh browser(driver is instance of WebDriver 
+class)? 
+] driver.navigate().refresh();//Answer 
+I driver.switch To().main().refresh(); 
+3 driver.switchTo().main(URL).refresh(); 
+• driver. findElement(By.xpath("//body")) sendKeys(Keys. F5);//Answer 
+33. Which of the following components adds security, monitoring, alerting, reporting and graph 
+capabilities to Elastic Stack? 
+O Logstash 
+• Kibana 
+O X-Pack//Answer 
+• beats 
+34. Select the Get command which fetches the inner text of the element that you specify in Web 
+driver Selenium. 
+O get in Text() 
+O getinner Text()//Answer 
+O getText() 
+O get inner_ Text() 
+35. What does the following code snippet do? 
+Actions act = new Actions (driver); // where driver is WebDriver type 
+act.move ToElement(WebEiement).perform(); 
+act.contextClick () perform (); 
+O Drag and Drop 
+O Left click 
+O Right click//Answer 
+O Moves the selection 
+36. Which of the following statements is wrong about Amazon S3? 
+) Amazon S3 provides large quantities of reliable storage that is highly protected 
+) Amazon S3 is highly available//Answer 
+) Amazon S3 is highly reliable 
+• Amazon S3 is an object storage service 
+37. Recall the benefits for automated testing provided by Selenium. 
+• Runs parallel tests on a single machine//Answer 
+C Works with all popular programming languages//Answer 
+• Runs tests under multiple browsers//Answer 
+• Provides simple to use test management features//Answer 
+38. Which of the following annotation supports data-driven 
+festing? 
+• @DataProvider//Answer 
+@DataSet 
+@ Provider 
+39. Why does the AWS Console show "Global" when working with S3 buckets? 
+• S3 Bucket names must be globally unique//Answer 
+• S3 Buckets use the AWS global backbone network for uploads 
+• S3 Buckets are replicated globally 
+• S3 Buckets are not tied to a specific region 
+40. Which of the following are keywords of Docker? 
+build 
+• ship//Answer 
+• run//Answer 
+• deploy//Answer 
+41. A Dockor service named payroll is currently deployed to a two-node swarm. You add an 
+additional swarm replica hosted on the new node. Which two methods can achieve this? 
+C Use - replicas global with the docker service command 
+docker service create - - replicas 3 payroll//Answer  
+• docker service scale payroll1=3//Answer 
+• Use - - mode global with the docker service command 
+42. Which of the following request fetches all documents from all indices from the cluster in 
+Kibana? 
+O GET / search//Answer 
+O GET / searchall 
+O GET / all 
+O GET / documents 
+43. What is the return type of driver 
+getCurrentUri0? 
+O List 
+• Character 
+• String[] 
+• String//Answer 
+44. Which environment variables need to be set in the docker-compose yam 
+file? 
+O MYSQL ROOT PASSWORD//Answer 
+• MYSQL DB HOST 
+• WORDPRESS DB PATH 
+• WORDPRESS DB USER//Answer 
+45. Most analysis tools depend upon 
+• structured data//Answer 
+• unstructured data 
+O graph data 
+• complex data 
+46. Which one of the following runs on Xen Hypervisor? 
+• Azure 
+O AWS EC2//Answer 
+O AWS EC3 
+• AWS RDS 
+47. Which of the following is the correct syntax for implicit wait of 5 Secs (d is the instance of 
+Webdriver)? 
+O d.manage().timeouts() .implicitlyWait(5, TimeUnit.SECONDS)//Answer 
+O d.timeouts() .manage ().implicitly Wait(5, TimeUnit SECONDS) 
+O d.timeouts() implicitly Wait(5, TimeUnit. SECONDS) 
+• d.timeouts() webDriverWait.implicitlyWait(5, TimeUnit.SECONDS) 
+48. Which of the following command is used to destroy the instance of WebDriver? 
+• driver. Quit()//Answer 
+O driver.close() 
+• driver.abandon() 
+• driver.clear() 
+49. Amazon Web Services falls into which of the following cloud-computing 
+category? 
+O Platform as a Service 
+• Software as a Service 
+Infrastructure as a Service//Answer 
+• Back-end as a Service 
+50. Which axis name is associated with the selection of the parents and grandparents in 
+selenium? 
+Auto Next 
+O Following 
+• Ancestor//Answer 
+O Parent 
+• Preceding 
+51. ____is a visualization tool for analyzing time-series data and allows executing advanced 
+mathematical calculations. 
+• Auto Next 
+• Dashboard 
+O DevTools//Answer 
+• Timelion 
+• Plugins 
+52. What is the use of Amazon S3? 
+Auto Next 
+• Hosting websites 
+• Storing and retrieving data//Answer 
+• Managing servers 
+O Monitoring application performance 
+53. Select the method which is used to do drag and drop in actionsClass. 
+• dragAndDrop(Source, offset) 
+O dragAndDrop(Xoffset,yOffset) 
+O dragAndDrop(Source, target)//Answer 
+• dragandMove To(source, tar 
+54. Which Docker network treats each container as its own physical network device? 
+• Overlay 
+• Ipvlan 
+• O Host    (gpt) 
+• Bridge 
+• Macvlan//Answer    (being) 
+55. Applications and services that run on a distributed network using virtualized resources is 
+known as 
+Auto Next 
+O Parallel computing 
+• Soft computing 
+• Distributed computing 
+• Cloud computing//Answer 
+56. Which of the following is a correct relationship between Regions, Availability Zones, and 
+Edge Locations? 
+Auto Next 
+Data centers contain regions. 
+• Regions contain Availability Zones. 
+• Availability Zones contain edge locations.//Answer 
+Edge locations contain regions. 
+57. Which capability of X-Pack helps to configure fields and document level security? 
+• Graph 
+• Reporting 
+• Alerting 
+• Security//Answer 
+58. List some of the Kibana features that enable dashboard reusability. 
+• Copy/Answer 
+• Clone/Answer   
+• Snapshot/Answer  
+• Share//Answer 
+(gpt-2,3,4) 
+(being-all) 
+59. Which of the following command format the response of request in JSON 
+format? 
+O curl -XGET http://localhost:9200/catalog/products/1? pretty true//Answer 
+• curl -XGET http://localhost:9200/catalog/products/1 ?format-json 
+O curl -XGET http://localhost:9200/catalog/products/ 1 ?type=json 
+O curl -XGET http://localhost:9200/catalog/products/1 ?format-type=son 
+60. What is the purpose of a Kibana index pattern? 
+• To define how data is mapped to Elasticsearch//Answer 
+• To create custom visualizations 
+O To define search queries 
+O To define index settings 
+61. Which of the following are features of 
+Docker? Auto Next 
+• Docker has the ability to reduce the size of development by providing a smaller footprint of 
+the operating system via containers.//Answer 
+© With containers, it becomes easier for teams across different units, such as development, QA 
+and Operations to work seamlessly across applications.//Answer 
+• You can deploy Docker containers anywhere, on any physical and virtual machines and even 
+on the cloud.//Answer 
+Docker Containers are not easily scalable 
+62. Which CLI commands can be used to create a new S3 Bucket? 
+• aws s3api make-bucket 
+• aws s3 cb 
+• aws s3api create-bucket//Answer 
+• aws s3 mb//Answer 
+63. List some of the prominent technological use cases of Docker. 
+• Infrastructure isolation//Answer  
+(gpt-1,2,4)   (being-all) 
+• Configuration simplification//Answer 
+• Single tenancy//Answer 
+• Rapid deployment//Answer 
+64. Choose the advantage of Selenium and Jenkins integration. 
+• Jenkins can schedule your tests to run at specific times//Answer 
+With the help of Jenkins, you can save the history of the test cases and also generate periodic 
+test reports.//Answer 
+• Jenkins also supports Maven and testing of applications with continuous 
+integration.//Answer 
+• Reduce the execution time//Answer 
+65. What is the role of IAM? 
+• Allows you to set permission, roles, and users.//Answer  
+• Allows you to stores data as objects.     
+• Allows you to manage users and their access.//Answer 
+• It allows only specific users to use specific services.//Answer 
+66. What is the abstract class available in Selenium? 
+• WebDriver//Answer  (gpt) 
+• By 
+• WebElement 
+• getText() 
+(gpt-1,3,4) 
+67. Which of the following are complex datatypes that are supported by Elasticsearch? 
+• Array//Answer 
+• Object//Answer 
+• Nested//Answer 
+• Number 
+68. Which port is used for Docker Swarm cluster management? 
+• 2388 
+• 7946 
+• 7950 
+• 2377//Answer 
+69. Adding or creating a document into a type within an index of Elasticsearch is called 
+operation. 
+• Indexing//Answer 
+• deleting 
+• updating 
+• getting 
+70. ____is the central application in the AWS portfolio. 
+• Amazon Simple Queue Service 
+• Amazon Elastic Compute Cloud//Answer 
+• Amazon Simple Notification Service 
+• Amazon Relational Database Service 
+71. Which technique is used in Web driver Selenium to check whether a specific checkbox, 
+radio button, or option in a drop-down box is selected? 
+• isSelected()//Answer 
+• selected() 
+• textSelected() 
+• isSelect() 
+72. What components are installed along with the Docker Desktop when we install Docker on 
+Windows 10? 
+• Kubernetes 
+• Docker compose//Answer  
+• Docker    
+• Docker machine//Answer 
+(gpt-2,3,4) 
+(being-1,2) 
+73. After applying a Docker Swarm service configuration, you need to run a Linux command in 
+a container to verify the configuration was applied. Which base command should you use? 
+• docker container exec//Answer 
+• service verify 
+• docker container verify 
+(gpt) 
+• docker service exe 
+74. Identify the valid Docker commands hat we can use to manage 
+containers.  
+• docker container import 
+• docker container attach  
+• docker container export 
+• docker container associate 2,3 
+75. Which of the following is the default TestNG report output folder? 
+• testoutput  
+• test-output  
+• test 
+• testresult 2 
+76. What components are installed along with the Docker Desktop when 
+we install Docker on Windows 10? 
+• Kubernetes 
+• Docker compose   
+• Docker assemble 
+• Docker machine  
+1,3 
+(being-1,2)   (gpt-2,4) 
+77. Which of the following are Elasticsearch APIs? 
+• Document APIs  
+• Search APIs  
+• Indices APIs 
+• Divide APIs 
+1,2,3 
+78. List some of the features of Kibana that extend the capability of 
+Kibana dashboards. 
+• Export dashboards   
+• Manage indexes  
+• Delete visualizations 
+(being-all)   (gpt-1,2,4) 
+• Generate PDF reports without using plugins  1,4 
+79. List some of the considerations that we have to keep in mind when 
+installing Kibana. 
+• Elasticsearch and Kibana must be of different versions 
+• Elasticsearch should already be installed to successfully start Kibana 
+• Logstash should already be installed before installing Kibana 
+• Elasticsearch and Kibana must be of the same version 1,2 
+80. Simplifies configuration auWhich states are you primarily interested 
+while using a declarative cluster management approach? 
+• Current state  
+• Baseline state   
+• Default state 
+• Desired state  
+(Not Sure) 
+1,2,3 
+81. What is the output of the following code?  
+import org.testng.annotations.Test; 
+public class TestNG {  
+@Test (priority = 1) 
+public void b method() { System.out.println("This is B method"); } 
+@Test (priority = 1) 
+public void a method() { System.out.println("This is A method"); }  
+@Test 
+public void d method() { System.out.println("This is D Method"); }  
+@Test 
+public void c_method() { System.out.println("This is C Method"); } 
+Answer.This is A method  
+This is B method 
+This is C Method  
+This is D Method 
+82. Which of the following statements are true about TestNG grouping? 
+• Users can specify groups containing other groups 
+• Users can group multiple test methods into a named group  
+• Users can specify which method to exclude from group 
+• Users can use @BeforeClass to execute pre-condition before 
+running any group methods (Not Sure) 
+The following statements are true about TestNG grouping:1,2,3 
+83. Which of the following are benefits of TestNG multithreading?  
+• Reduces execution of testing time 
+• Increase test result accuracy   
+• Less testing code is required  
+(being-1,2,3) 
+(Not Sure) 
+• Test multiply browsers and operation systems simultaneously. 
+1,2,3,4 
+84. What are valid reasons for using containers? 
+• Containers cannot be unit or integration tested  
+• Containers are fixed and cannot be rolled back  
+• Containers by design are scalable 
+• Containers are highly portable  
+3,4 
+85. Identify the valid selenium webdriver wait. 
+• ExplicitlyWait  
+• ThreadWait  
+• FluentWait 
+• Implicitly Wait  
+1,3,4 
+86. Which CLI commands can be used to create a new S3 Bucket?  
+• aws s3api make-bucket 
+• aws s3 cb 
+• aws s3api create-bucket 
+• aws s3 mb  
+3,4 
+87. You have disabled the "Block all public access" option in an S3 
+bucket hosting a static website yet website users continue to rece "Access 
+Denied" messages. Why is this happening? (not sure) 
+• Users must authenticate with an IAM account  
+• The site certificate has expired 
+• S3 objects permissions are overriding bucket permissions  
+• A bucket policy was not configured  
+3 
+88. Select some of the critical wait types that are provided by Selenium 
+WebDriver.  
+• Thread wait 
+• Implicit wait  
+• Fluent wait 
+• Wait explicit  
+2,3 
+89. You have enabled a CloudFront distribution for an existing Elastic 
+Beanstalk web application. What should you instruct the web app 
+developers to chan 
+• Origin URL references  
+• The PKI certificate  
+• OTCP timeout settings 
+• The caching TTL which   
+option 1 
+90. Which of the following command format the response of request in 
+JSON format? 
+• curl -XGET http://localhost:9200/catalog/products/1?pretty=true  
+• curl -XGET http://localhost:9200/catalog/products/1?format=json  
+• curl -XGET http://localhost:9200/catalog/products/1?type=json 
+• curl -XGET http://localhost:9200/catalog/products/1?format
+type=json  
+opt1 
+92. Select all the distributions used by AWS CloudFront. 
+• Web  
+• FTP  
+• RTMP  
+• SMTP  
+• POP3  
+2,3 
+93. Which statements are valid when we want to delay execution and 
+locate elements using XPath? 
+• thread.sleep(long millis)  (gpt-1,3) 
+• findElement(By.xpath)(string id)).click() 
+• findElement(By.xpath) (string xpathExpression)).click()  
+• sleep.thread(long millis)  
+3 
+94. What benefit is derived from using the AWS Storage Gateway?  
+• Ability to migrate on-premises VMs to AWS (gpt) 
+• Reduced network latency when accessing S3 content  
+• Ability to migrate VMs from other cloud providers to AWS 
+(being) 
+• Reduced network latency when accessing on-premises content  
+opt1 
+95. Which of the following is the correct syntax for implicit wait of 5 Secs 
+(d is the instance of Webdriver)? 
+• d.manage().timeouts().implicitly Wait(5, TimeUnit.SECONDS)  
+• d.timeouts().manage().implicitly Wait(5, TimeUnit.SECONDS)  
+• d.timeouts().implicitly Wait(5, TimeUnit.SECONDS) 
+• d.timeouts().webDriverWait.implicitly Wait(5, TimeUnit.SECONDS) 
+opt 1 
+96. Which file contains the commands to build a Docker image? 
+• dockerfile 
+• docker-compose.yml  
+• requirements.txt 
+• app.py 
+opt1 
+97. What is the default port of Elasticsearch? 
+• 9200 
+• 5601 
+• 8080 
+• 8081 9200 
+98. Which method is used when you want to verify whether a certain 
+check box, radio button or option in a drop-down box is 
+Web driver Selenium?  
+• is_Selected()  
+• isSelect() 
+• isSelected() 
+• is Select() opt3 
+99. are the preferred mechanism for persisting data generated by and 
+used by Docker containers 
+• Docker Volumes  
+• Docker File 
+• Docker Compose  
+• Docker 
+opt1 
+100. Select the code which helps you to locate the element that is having 
+type as input and id as 'q'  
+• driver.findElement(By.xpath("//input[@id='q']")) 
+• driver.findElement(By.xpath("//input[id='q']"))  
+• driver.findElement(By.XPATH("//input[@id=q]")) 
+• driver.findElement(By.xpath(//id='q')) 
+opt1 
+101. Which file is the main node configuration file for ElasticSearch?  
+• elasticsearch.yml 
+• elasticsearch.config  
+• jvm.options 
+• Log4j2.properties 
+opt1 
+102. breakdown fields values of a document into a stream, and inverted 
+indexes are created and updated using these values and these stream of 
+values are stored in the document. 
+• Analyzer  (Not Sure) 
+• Shared  
+• Filter 
+• Tokenizer   d 
+103. Which of the following is a correct relationship between Regions, 
+Availability Zones, and Edge Locations? 
+• Data centers contain regions. 
+• Regions contain Availability Zones. 
+• Availability Zones contain edge locations.  
+• Edge locations contain regions. 
+Opt2 
+104. What are the attributes of @Test in TestNG?  
+• Enabled 
+• Name   
+• Order 
+• Groups 1,2,4 
+(being-1,2,4)    (gpt-all) 
+105. Which method selects the option at the given index?  
+• selectedByIndex() 
+• selectByIndex()  
+• selectByIndexValue()  
+• selectIndex() 
+opt2 
+106. the Dockerfile commands that we can use to manage images. 
+• Run  
+• Volume  
+• Entry  
+(Not Sure) 
+• Maintain  1,2 
+Phase 4 
+Which of the following options are correct statements to apply the CSS class pick 
+☐ <p [ngClass]='pink'> background is pink</p> 
+<p [ngClass]='{pink:true}'> background is pink</p> 
+<p [ngClass]='["pink"]'> background is pink</p> 
+<p ngClass ={pink:true}>background is pink</p> 
+Please refer below 
+What will be the output of the below code? 
+lat product Details: [string, number): productDetails ["Samsung Galaxy J7", 16,8, Samsung 
+Galaxy J5,321 for (let i=0;i< productDetails.length;i++ console.log(productDetails(11): 
+Samsung Galaxy J7 16 Samsung Galaxy J5 32 
+Samsung Galaxy J7 16 8 Samsung Galaxy J5 32 
+Samsung Galaxy J7 Samsung Galaxy J5 16 8 
+Compilation Error 
+What will be the output of the below code? 
+var line "Fundamentals of Javascript"; 
+console.log("Slice (1, 12) ", line, slice (1, 12))) console.log("Slice (-20,-16) ",line.slice(-20,
+16)); console.log("Slice (15)", line, alice (15)) 
+option c 
+C) 
+Slice (2,5) : nda 
+Slice(-20,-16): enta 
+Slice (18) : vascript 
+that will be the color of Linel, Line, Line), and Lined when the above web page is rendered 
+on the home 
+Line1 red, Line2 blue, Line3 cyan, Line4: green 
+Line1 red, Line2 blue, Line3 yellow, Line4: green 
+Line1 red, Line2 green, Line3 cyan, Line4: green 
+Line1 red, Line2 green, Line3: yellow, Line4: green 
+In order to create a custom impure pipe, you use_______ attribute in @Pipe decorator 
+pure true 
+pure false 
+impure true 
+impure false 
+In the below code snippet, what is the correct statement to be placed at line number 6 to 
+display the coursehlame? 
+Line 1: import (Component) from '@angular/core': 
+Line 2: Component ({ 
+Line 3: 
+Line 4:  template: 
+Line 5: <h1>> 
+Line 6: 
+Line 7:</h1> 
+Line 8: 
+Line 91 
+Line 10: export class AppComponent 
+Line 11:1 
+Line 121 coursellane: string "Angular": 
+Line 13: ) selector: 'my-app', 
+{{ courseName }} 
+this.courseName 
+courseName 
+AppComponent.courseName 
+Mr.Zeal has designed the following web page. Choose the correct option for Z-index 
+Catal 
+Chead> 
+catyle> 
+Lng 
+position: absolute; 
+left: Ops: 
+1top: Ops: 
+</style> </head> 
+Chody> 
+Cing srow image.jpg" width="100" height="140"> 
+</body> 
+<p>E-index refers to the stacking order of the elementsx/p> 
+</html> 
+p ( z-index:-1:3 
+p (z-index:1,) 
+p (position:absolute; z-index: 1;) 
+p(position absolute, z-index:-1.) 
+Which of the following are the valid HTML5 input types? 
+colors 
+t
+ ime 
+datetime 
+number 
+Which of the following option describes the setTimeout() function in JavaScript? 
+It halts all code execution for the given amount of time 
+It delays the execution of a specified function by the given amount of time 
+It halts all code execution after the given amount of time 
+It freezes the browser for the given amount of time 
+Rank the elements of the CSS box model from most inner to outer layer 
+Padding Border Content Margin 
+Margin Border Padding Content 
+Content Padding Border Margin 
+Content Border Padding Margin 
+Mr Ra working on a web development project. According to the styling guidelines 
+provided by the organ ts of spacing between at the paragraphs that appear immediately 
+after the heading Which of the below requirement? 
+pmargin-bottom:20px) 
+1(margin-bottom: 40px) 
+h1 (margin: 00:40px0) 
+pimargin-bottom: 0 20px 03 
+Consider the code snippet given below and find out which line will result in an error. 
+class Person ( constructor (name, age) ( this. pname name; this page age; 
+display() { 
+console.log("name:" + this.pname); console.log("age:" + this.page); 
+set pname (namePerson) (this. pname namePerson; ) get pname() { return this.pname:) 
+1st per new Person(); 
+par.pnams "Rexha"; 
+console.log(per.pname); 
+console.log(per1.pname); 
+let pari new Person("Alex", 10); 
+Type here to search 
+Line no 8 gives error as no arguments have been passed to the constructor. 
+Line no. 10 gives error as this is not the way to fetch the instand variable of a class. 
+Line 10 displays undefined and line 12 displays Alex 
+Line 10 displays Rexha and line 12 displays Alex 
+Which of the following options would correctly set the viewport to make your website 
+look good on all devices 
+<meta name="port" content="width=device-width, initial-scale=0"/> 
+<meta name="viewport" content="width=device-width initial-scale=1" /> 
+<meta name="port" content="width=device-width inity scale=1"/> 
+<meta name="viewport" content="width=devicewidth, initial-scale=1" /> 
+Ryan is trying to create an email account. During the registration process, as soon as he 
+focuses on the name held and enters the character to fill his name, he gets a message This 
+name is taken 
+We understand that the website is using JavaScript Event-handling to respond to the data 
+entered by Ryan Which event do you think is triggering the JavaScript code for the account 
+to check the value entered by the user7 
+Oonfocus 
+onblur 
+Oonkeypress 
+Onkeyup 
+Which of the following are the valid syntax of using ng Class directive to apply CSS classes 
+A,B in Angular? 
+<h1 [ngClass]="A B"Hello World <h1> 
+<h1 [ngClass]="['A','B']" >Hello World <h1> 
+<h1 [ngClass]="('A':true,'B' true)" >Hello World <h1> 
+<h1 {ngClass]="A,B" >Hello World <h1> -----------means that if we declare a variable (declared but not initialized) at the end of a 
+function, the runtime will hoist it to the top and we will not have any error if we would 
+have used that variable before being declared 
+Variable hoisting 
+Overloading 
+Inheritance 
+Static Typing 
+What will be the output of the below code? 
+function sayli (person: string) { return "Hello, + person: 
+var customer :string[] document.body.innerHTML 
+["Tom", "Harry", "Jack"]; 
+sayli (customer); 
+Hello Tom 
+Hello 
+Hello Tom Harry Jack 
+Compilation Error 
+What is the correct statement to bind required and maxlength validators to name field in a 
+reactive T 
+name ['. Validators required, Validators maxlength(10)] 
+name: [' [Validators required, Validators maxlength(10)]] 
+name: [Validators required, Validators.maxlength(10)] 
+name: Validators required, Validators.maxlength(10) 
+Predict the output of the below code snippet 
+class Demo { 
+n:number 9: 
+check () { 
+if(this.n==9) { 
+let n: number= 10: console.log(this.n); 
+}}} 
+let demoObject=new Demo (): demoobject.check(); 
+9 
+10 
+11 
+Compilation Error 
+Select valid states of Promise Object. 
+pending 
+fulfilled 
+rejected 
+completed 
+Rahul has completed the development of a website. Rahul needs to add "note" keyword 
+before each paragraph in one of his web pages and Rahul has forgotten to end headings 
+with full-stop How can achieve these requirements? 
+Using before and after pseudo class 
+Using first-letter and after pseudo class 
+Using before for first requirement and "full-stop" can be added manually in webpage 
+Rahul cannot achieve this requirement. 
+</body> 
+<p id="idi">Paragraph</p> 
+</html> 
+Red, red and blue respectively 
+Red, black and blue respectively 
+Red, black and black respectively 
+Red, blue and blue respectively 
+________option of Angular CLI indicates to use inline templates for the project -inline -inline-templates -inline-temp -inline-template 
+Rest parameters are used when 
+datatypes of parameters are not known 
+number of parameters are not known 
+function needs to be called recursively 
+O function needs to be called asynchronously 
+The purpose and function of the ADDRESS and CITE tags has changed since HTML 4.01 and 
+are now syndication purposes. Identify the true statements that describes how the 
+function of each tag has ch HTMLS 
+The Address tag now defines the contact information of the author or owner of a document 
+allowing you to have one sulle par web page 
+The Cite tag now defines a citation or article footer 
+The Cite tag now defines the title of a work such as a song, book, or movie 
+The Address tag now defines the contact information of the author or owner of a document 
+or an article allowing you to multiple authors for a single page 
+Which of the following are the valid attribute-directives in Angular? 
+ngStyle 
+ngClass 
+ngSwitch 
+ngif 
+Which of the following are the valid statements with respect to production builds? 
+Uses AOT compilation 
+Files are tree shaked 
+Source maps are generated 
+Cas are extracted to js files 
+Uses JIT compilation 
+Which of the following are the valid methods of an Array object? 
+reverse() 
+sort() 
+search() 
+f
+ ilter 
+Which of these operations are permitted if you apply Object.freeze() on myObject? 
+Adding a property to a nested object in myObject 
+Adding a new top-level property to myObject 
+Modifying a top-level property of myObject 
+Modifying a property of a nested object in myObject 
+What will be the output of the below code? 
+let originalstring="Digital!"; 
+let updatedStringl originalstring.substr(2,3); let updatedString2 originalstring.substring 
+(2,3). document.write(updatedStringie'br>'); document.write(updatedstring2) 
+git g 
+git git 
+ggit 
+gg 
+Which of the following is a valid command to create a component in Angular? 
+ng generate component <component-name> 
+ng create component <component-name> 
+Ong create <component-rame> 
+Ong generate <component-name>  
+Identify which of the following Pseudo classes can be applied to hyperlinks. 
+Cue 
+Clicked 
+Hover 
+Visited 
+Focus 
+You are creating a web page that requires some text to span across the width of the screen 
+and other preos be emphasized within those text blocks. Which statements below 
+correctly explain the rules about block and elements that will help you build your web 
+page? 
+You should use block-level elements when you want text or content to go across the width of 
+the browser window or to s on a new line. 
+You should use block-level elements when you want text or content to align horizontally with 
+an image on a web page 
+You should use inline-level elements when you want to align or format text without having it 
+start on another line or spen the width of a browser window. 
+You should use inline-level elements when using the <p> tag. 
+Which of the following is true about border property? 
+border short hand property will not work if border width is not specified. 
+border will not appear if border style is not specified. 
+border will not appear if border color is not specified. 
+border will not appear if border height is not specified. 
+This <article> </article> and <section></section> tags are new to HTML5, Identify the true 
+statements that de ench is used in HTML5. 
+Article elements or tags in HTML5 can be used as CSS styles that group images on a web 
+page that are separated by chunks of content 
+Article elements or tags in HTML5 can be used as RRS syndication and applied to dynamic 
+content such as forum posts blog posts, comments, and news stories. 
+The Section tag in HTML5 defines and isolates tables and images that have text wrapped 
+around them, 
+The Section tag in HTML5 defines and isolates sections or logical chunks of content in a 
+document such as an Introduction, header, or footer. 
+Which of the following statements Angular component consists of? 
+A component class that handles data and functionality. 
+An HTML template that determines the UI. 
+Component-specific styles that define the look and feel. 
+Angular Routing module 
+Which of the following members can be included in the class? 
+constructor 
+properties 
+methods 
+modules 
+How do you add a background color for all <h1> elements? 
+all.h1 (background-color:#FFFFFF) 
+h1.all (background-color:#FFFFFF} 
+ht (background-color:#FFFFFF} 
+h bgcolor:#fffff 
+Which of the following are the valid methods of XMLHttpRequest object? 
+send() 
+open() 
+cancel() 
+abort() 
+When you hover your mouse over the host element (tag), the color of the tag should 
+change. In addition, when the mouse is moved away, the color of the tag should change to 
+its default color. To do this, you need to handle events raised on the host element in the 
+directive class. Which decorator is used to implement this functionality? 
+@Host 
+HostBinding 
+HostListener 
+Attribute 
+Which of the following attributes controls the valid numeric boundaries of a range 
+control? 
+min 
+minbound 
+count 
+max 
+Which are the built-in browser validation features? 
+max 
+minlength 
+conversion 
+currency 
+required 
+Which of the following will map the name of an input parameter "studentinfo" to a field 
+named "students" 
+@Input('studentinfo') students 
+@Input() studentinfo: students 
+Input() students: studentinfo 
+Input('students") studentinfo 
+What will be the output for the following code? 
+// eas rest parameter 
+function fun(...input) { 
+let sum 0: 
+for(let i of input) 
+return sum: 
+console.log (fun (1,2)); console.log(", "+fun (1,2,3)); console.log(", "+fun (1,2,3,4,5)); 
+3,6,15 
+3. undefined 
+3,error 
+3,6,error 
+What will be the output for the following code? 
+let employee = (empId: '11001', 
+empName: ( 
+f
+ irstName: 'John', 
+middleName: 'Thomson', 
+lastName: 'Mark' 
+empStatus: 'Active' 
+let (firstName: middleName, lastName) = employee.emplame; console.log (middleName); 
+John 
+Thomson 
+Mark 
+Compilation Error 
+Which of the following are the valid methods of an Array object? 
+reverse() 
+sort() 
+search() 
+f
+ ilter() 
+Which of the following are the valid methods of XMLHttpRequest object? 
+send() 
+open() 
+cancel() 
+abort() 
+What is a proper syntax to construct a module? 
+Ovar variable_name = angular.module("app_name", []); 
+Ovar variable_name = angular.module("app_name"); 
+Ovar variable_name = angular.module(); 
+Ovar variable_name = new module(): 
+The tag defines an alternate content to be displayed to users that have disabled scripts in 
+the browser or have a browser that doesn't support script. 
+<noscript> 
+<script> 
+<notscript> 
+<js> 
+Which of the following statements Angular component consists of? 
+A component class that handles data and functionality. 
+AngularRouting module 
+An HTML template that determines the UI. 
+Component-specific styles that define 
+Typescript compiler configuration is stored in ___file 
+package.json 
+Otsc.json 
+tsconfig.json 
+Olint.json 
+Select the new HTML5 layout containers, 
+<aside> 
+<boxtitle> 
+<header> 
+<footnote> 
+1:yellow, 2: yellow, 3: yellow, 4: yellow 
+1:green, 2 yellow, 3:green, 4: yellow 
+1:yellow, 2:green, 3:green, 4: yellow 
+1 yellow, 2: yellow, 3: green, 4: yellow 
+Kah wants to apply margin property to an element with top-margin value of 30px, bottom
+margin value of 20px and of a margien value of 25px. Which among the following will help 
+her in achieving the requirement? 
+margin: 25px 30px 20px; 
+margin: 20px 30px 25px; 
+Omargin: 20px 25px 30px 
+Omargin: 30px 25рх 20р. 
+You are creating a web page that requires some text to span across the width of the screen 
+and other preces of lext to be emphasized within those text blocks. Which statements 
+below correctly explain the rules abou brock and inline elements that will help you build 
+your web page? 
+You should use block-level elements when you want text or content to go across the width of 
+the browser or to start on a new line 
+You should use block-level elements when you want text or content to align horizontally with 
+an image on a page 
+You should use inline-level elements when you want to align or format text without having it 
+start on another of span the width of a browser window. 
+You should use inline-level elements when using the <p> tag 
+What will be the output for the following code? 
+let prices new Array(67,23,90,67,12,73): prices.push(110); prices.unshift(43); prices.pop(); 
+prices.unshift(89): prices.shift(): console.log(prices); 
+[43, 67, 23, 90, 67, 12, 73] 
+[67, 23, 90, 67, 12, 89] 
+[67, 23, 90, 67, 12, 73,89] 
+[110, 67, 23, 90, 67, 12, 89] 
+Which of the following are the features of HttpClient service? 
+The ability to request typed response objects. 
+Streamlined error handling. 
+Request and response interception. 
+Non Testability 
+What  will be the output of the below code? 
+inport Pipetransform) from Bangular/core' 
+mmport class LangthPipe implements PipeTransform ( Jangth(valus: string): string( return 
+"Length evalus.length: 
+Olength method should be an no args method 
+The Length Pipe class has not implemented the transform() method of Pipe Transform 
+Interface 
+Length Pipe class should be using @Component decorator to make it working 
+The length method should return an numeric value 
+Which of the following are the valid properties of Promise Object? 
+state 
+result 
+readyState 
+response 
